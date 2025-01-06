@@ -1,27 +1,27 @@
 [
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.copeo.copeoapp",
-            "sha256_cert_fingerprints": [
-                "95:06:E5:33:2C:CE:83:9F:89:9A:D4:D2:43:3E:78:F0:A0:F0:BB:C8:7D:EA:21:D1:35:06:96:FD:01:6C:C2:CB"
-            ]
-        }
-    },
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls",
-            "delegate_permission/common.get_login_creds"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.copeo.copeoapp.dev",
-            "sha256_cert_fingerprints": [
-                "90:95:B1:95:02:39:6E:F4:69:95:1B:1B:59:42:3C:46:06:70:07:5A:1E:02:2C:B9:A1:CC:81:80:98:ED:96:23"
-            ]
-        }
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.copeo.copeoapp",
+      "sha256_cert_fingerprints": [
+        "95:06:E5:33:2C:CE:83:9F:89:9A:D4:D2:43:3E:78:F0:A0:F0:BB:C8:7D:EA:21:D1:35:06:96:FD:01:6C:C2:CB"
+      ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.copeo.copeoapp.dev",
+      "sha256_cert_fingerprints": [
+        "90:95:B1:95:02:39:6E:F4:69:95:1B:1B:59:42:3C:46:06:70:07:5A:1E:02:2C:B9:A1:CC:81:80:98:ED:96:23"
+      ]
+    }
+  }
 ]
