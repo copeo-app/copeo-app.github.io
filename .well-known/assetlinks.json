@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.copeo.copeoapp",
       "sha256_cert_fingerprints": [
-        "95:06:E5:33:2C:CE:83:9F:89:9A:D4:D2:43:3E:78:F0:A0:F0:BB:C8:7D:EA:21:D1:35:06:96:FD:01:6C:C2:CB"
+        "95:06:E5:33:2C:CE:83:9F:89:9A:D4:D2:43:3E:78:F0:A0:F0:BB:C8:7D:EA:21:D1:35:06:96:FD:01:6C:C2:CB",
+        "6E:15:CB:02:8C:C1:B2:0C:61:C3:17:05:9C:64:31:D2:E4:04:9F:0E:90:72:20:2B:FD:90:E2:0B:EC:C1:95:46"
       ]
     }
   },
