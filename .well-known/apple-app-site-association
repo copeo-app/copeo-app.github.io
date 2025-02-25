@@ -1,18 +1,21 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appIDs": [
-                    "TeamID.BundleID"
-                ],
-                "components": [
-                    {
-                        "/": "/join-code/*",
-                        "comment": "Matches any URL with a path that starts with /join-code/."
-                    }
-                ]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "TeamID.com.copeo.copeoapp",
+          "TeamID.com.copeo.copeoapp.dev"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
         ]
-    }
+      }
+    ]
+  }
 }
