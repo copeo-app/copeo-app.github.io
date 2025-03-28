@@ -1,0 +1,10 @@
+[
+    {
+        "id": "APP",
+        "showPercent": 5.0
+    },
+    {
+        "id": "GOOGLE",
+        "showPercent": 95.0
+    }
+]
