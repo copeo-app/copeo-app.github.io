@@ -7,8 +7,8 @@
         "description": "",
         "location": {
             "name": "Valencia, España",
-            "coordLat": "39.4690631",
-            "coordLong": "-0.3823919",
+            "coordLat": 39.4690631,
+            "coordLong": -0.3823919,
             "countryCode": "ES"
         }
     }
