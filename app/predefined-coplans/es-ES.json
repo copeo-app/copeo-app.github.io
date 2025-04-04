@@ -2,7 +2,7 @@
     {
         "referenceNumber": "123456",
         "name": "Test",
-        "isEnabled": true,
+        "isEnabled": false,
         "scheduledDateTime": "2025-05-12T14:48:00.000Z",
         "description": "",
         "location": {
