@@ -96,12 +96,6 @@
         }
       }
 
-      .fallback-info {
-        margin-top: 20px;
-        font-size: 0.9em;
-        opacity: 0.8;
-      }
-
       .instagram-warning {
         background: rgba(255, 193, 7, 0.2);
         border: 1px solid rgba(255, 193, 7, 0.5);
@@ -115,28 +109,18 @@
   <body>
     <div class="container">
       <h1>📱 CopeoApp</h1>
-      <p class="subtitle">Open in the App for Better Experience!</p>
+      <p class="subtitle">Visit our official website!</p>
 
       <div id="redirect-content">
         <div class="loading" id="loading">
           <div class="spinner"></div>
-          <p>Opening CopeoApp...</p>
+          <p>Redirecting to CopeoApp...</p>
         </div>
 
-        <button class="button primary" onclick="openApp()">🚀 Open App</button>
-        <button class="button" onclick="openInSystemBrowser()">
-          🌐 Open in Browser
+        <button class="button primary" onclick="visitWebsite()">
+          🌐 Visit Website
         </button>
         <button class="button" onclick="copyToClipboard()">📋 Copy Link</button>
-
-        <div class="fallback-info">
-          <p>
-            <small
-              >If the app doesn't open, you'll be redirected to our downloads
-              page</small
-            >
-          </p>
-        </div>
       </div>
     </div>
 
@@ -145,50 +129,14 @@
       const currentPath = window.location.pathname;
       const currentUrl = window.location.href;
 
-      const fallbackUrl = "https://copeoapp.com/download/";
+      const websiteUrl = "https://copeoapp.com/";
 
-      // Create deep link with current path
-      const deepLink = "https://copeo-app.github.io" + currentPath;
-
-      function openApp() {
+      function visitWebsite() {
         document.getElementById("loading").style.display = "block";
 
-        // Attempt to open the app
-        window.location.href = deepLink;
-
-        // Fallback after 3 seconds - redirect to fallback URL
+        // Redirect to the website
         setTimeout(() => {
-          document.getElementById("loading").style.display = "none";
-          window.location.href = fallbackUrl;
-        }, 3000);
-      }
-
-      function openInSystemBrowser() {
-        // Try multiple methods to open in system browser
-        const link = document.createElement("a");
-        link.href = currentUrl;
-        link.target = "_system"; // Works in some WebViews
-        link.rel = "noopener noreferrer";
-
-        // Attempt 1: Standard target system
-        link.click();
-
-        // Attempt 2: Try with _blank as fallback
-        setTimeout(() => {
-          const fallbackLink = document.createElement("a");
-          fallbackLink.href = currentUrl;
-          fallbackLink.target = "_blank";
-          fallbackLink.rel = "noopener noreferrer";
-          fallbackLink.click();
-        }, 500);
-
-        // Attempt 3: Direct window.open as last resort
-        setTimeout(() => {
-          try {
-            window.open(currentUrl, "_system");
-          } catch (e) {
-            window.open(currentUrl, "_blank");
-          }
+          window.location.href = websiteUrl;
         }, 1000);
       }
 
