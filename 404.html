@@ -1,16 +1,218 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>CopeoApp</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; URL=https://copeoapp.com/copeoapp-descargas" />
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: linear-gradient(135deg, #fd4d21 0%, #ff6b47 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
 
-<body>
-    <p>
-        If you are not redirected within 3 seconds, click <a href="https://copeoapp.com/copeoapp-descargas">here</a> to go to CopeoApp
-        homepage.</p>
-</body>
+      .container {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        max-width: 400px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
 
+      h1 {
+        margin-bottom: 10px;
+        font-size: 2.2em;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        margin-bottom: 30px;
+        opacity: 0.9;
+        font-size: 1.1em;
+      }
+
+      .button {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: 600;
+        margin: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease;
+      }
+
+      .button:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+      }
+
+      .button.primary {
+        background: white;
+        color: #fd4d21;
+        border: 1px solid white;
+      }
+
+      .button.primary:hover {
+        background: rgba(255, 255, 255, 0.9);
+        transform: translateY(-2px);
+      }
+
+      .loading {
+        display: none;
+        margin: 20px 0;
+      }
+
+      .spinner {
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        border-top: 3px solid white;
+        width: 30px;
+        height: 30px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .fallback-info {
+        margin-top: 20px;
+        font-size: 0.9em;
+        opacity: 0.8;
+      }
+
+      .instagram-warning {
+        background: rgba(255, 193, 7, 0.2);
+        border: 1px solid rgba(255, 193, 7, 0.5);
+        border-radius: 12px;
+        padding: 15px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>📱 CopeoApp</h1>
+      <p class="subtitle">Open in the App for Better Experience!</p>
+
+      <div id="redirect-content">
+        <div class="loading" id="loading">
+          <div class="spinner"></div>
+          <p>Opening CopeoApp...</p>
+        </div>
+
+        <button class="button primary" onclick="openApp()">🚀 Open App</button>
+        <button class="button" onclick="openInSystemBrowser()">
+          🌐 Open in Browser
+        </button>
+        <button class="button" onclick="copyToClipboard()">📋 Copy Link</button>
+
+        <div class="fallback-info">
+          <p>
+            <small
+              >If the app doesn't open, you'll be redirected to our downloads
+              page</small
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Get current path from URL
+      const currentPath = window.location.pathname;
+      const currentUrl = window.location.href;
+
+      const fallbackUrl = "https://copeoapp.com/download/";
+
+      // Create deep link with current path
+      const deepLink = "https://copeo-app.github.io" + currentPath;
+
+      function openApp() {
+        document.getElementById("loading").style.display = "block";
+
+        // Attempt to open the app
+        window.location.href = deepLink;
+
+        // Fallback after 3 seconds - redirect to fallback URL
+        setTimeout(() => {
+          document.getElementById("loading").style.display = "none";
+          window.location.href = fallbackUrl;
+        }, 3000);
+      }
+
+      function openInSystemBrowser() {
+        // Try multiple methods to open in system browser
+        const link = document.createElement("a");
+        link.href = currentUrl;
+        link.target = "_system"; // Works in some WebViews
+        link.rel = "noopener noreferrer";
+
+        // Attempt 1: Standard target system
+        link.click();
+
+        // Attempt 2: Try with _blank as fallback
+        setTimeout(() => {
+          const fallbackLink = document.createElement("a");
+          fallbackLink.href = currentUrl;
+          fallbackLink.target = "_blank";
+          fallbackLink.rel = "noopener noreferrer";
+          fallbackLink.click();
+        }, 500);
+
+        // Attempt 3: Direct window.open as last resort
+        setTimeout(() => {
+          try {
+            window.open(currentUrl, "_system");
+          } catch (e) {
+            window.open(currentUrl, "_blank");
+          }
+        }, 1000);
+      }
+
+      function copyToClipboard() {
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(currentUrl).then(() => {
+            alert("Link copied! Paste it in Safari or Chrome to open the app.");
+          });
+        } else {
+          // Fallback for older browsers
+          const textArea = document.createElement("textarea");
+          textArea.value = currentUrl;
+          document.body.appendChild(textArea);
+          textArea.focus();
+          textArea.select();
+          try {
+            document.execCommand("copy");
+            alert("Link copied! Paste it in Safari or Chrome to open the app.");
+          } catch (err) {
+            alert("Please copy this link manually: " + currentUrl);
+          }
+          document.body.removeChild(textArea);
+        }
+      }
+    </script>
+  </body>
 </html>
