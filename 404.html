@@ -157,7 +157,6 @@
       .pulse {
         animation: pulse 2s infinite;
       }
-
       .hidden {
         display: none;
       }
@@ -169,7 +168,6 @@
       <h1>📱 CopeoApp</h1>
       <p class="subtitle" id="subtitle">Visit our official website!</p>
 
-      <!-- Contenido normal: intenta abrir la app automáticamente -->
       <div id="normal-content">
         <div class="loading" id="loading">
           <div class="spinner"></div>
@@ -213,7 +211,6 @@
         <button class="button primary pulse" onclick="copyToClipboard()">
           📋 Copy Link
         </button>
-
         <button class="button" onclick="visitWebsite()">
           🌐 Visit Website
         </button>
@@ -228,18 +225,21 @@
 
       const currentUrl = window.location.href;
 
-      const deepLinkUrl = currentUrl;
-
       function detectInstagramWebView() {
-        const ua = navigator.userAgent || navigator.vendor || window.opera;
-        const isInstagram =
-          ua.indexOf("Instagram") > -1 ||
-          ua.indexOf("FBAN") > -1 ||
-          ua.indexOf("FBAV") > -1;
-        const isFromInstagram = (document.referrer || "").includes(
+        const ua = navigator.userAgent || "";
+        const igPatterns = [
+          "Instagram",
+          "FBAN",
+          "FBAV",
+          "FB_IAB",
+          "FB4A",
+          "FBIOS",
+        ];
+        const isInstagramUA = igPatterns.some((p) => ua.includes(p));
+        const isInstagramReferrer = (document.referrer || "").includes(
           "instagram.com",
         );
-        return isInstagram || isFromInstagram;
+        return isInstagramUA || isInstagramReferrer;
       }
 
       function isIOS() {
@@ -250,24 +250,50 @@
         return /android/i.test(navigator.userAgent);
       }
 
-      // Try to open the app; if it's not installed, go to the store
       function openApp() {
+        if (sessionStorage.getItem("appOpenAttempted")) {
+          sessionStorage.removeItem("appOpenAttempted");
+          return;
+        }
+        sessionStorage.setItem("appOpenAttempted", "1");
+
         document.getElementById("loading").style.display = "block";
 
-        // Try to launch the app with the custom scheme
-        window.location.href = deepLinkUrl;
+        const path =
+          window.location.pathname +
+          window.location.search +
+          window.location.hash;
 
-        // If after 2.5s we're still here, assume the app is not installed → store
-        setTimeout(() => {
+        if (isAndroid()) {
+          const intentUrl =
+            `intent://${window.location.host}${path}#Intent;` +
+            `scheme=https;` +
+            `package=com.copeo.copeoapp;` +
+            `S.browser_fallback_url=${encodeURIComponent(PLAY_STORE_URL)};` +
+            `end`;
+          window.location.href = intentUrl;
+
+          setTimeout(() => {
+            document.getElementById("loading").style.display = "none";
+          }, 2500);
+        } else if (isIOS()) {
+          const sep = currentUrl.includes("?") ? "&" : "?";
+          const iframe = document.createElement("iframe");
+          iframe.style.display = "none";
+          iframe.src = currentUrl + sep + "_deeplink=1";
+          document.body.appendChild(iframe);
+
+          setTimeout(() => {
+            document.body.removeChild(iframe);
+            document.getElementById("loading").style.display = "none";
+            if (!document.hidden) {
+              window.location.href = APP_STORE_URL;
+            }
+          }, 2500);
+        } else {
           document.getElementById("loading").style.display = "none";
-          if (isIOS()) {
-            window.location.href = APP_STORE_URL;
-          } else if (isAndroid()) {
-            window.location.href = PLAY_STORE_URL;
-          } else {
-            window.location.href = WEBSITE_URL;
-          }
-        }, 2500);
+          window.location.href = WEBSITE_URL;
+        }
       }
 
       function visitWebsite() {
@@ -275,18 +301,14 @@
       }
 
       function copyToClipboard() {
-        const doCopy = () => {
-          if (navigator.clipboard) {
-            navigator.clipboard
-              .writeText(currentUrl)
-              .then(showCopiedAlert)
-              .catch(fallbackCopy);
-          } else {
-            fallbackCopy();
-          }
-        };
-
-        doCopy();
+        if (navigator.clipboard) {
+          navigator.clipboard
+            .writeText(currentUrl)
+            .then(showCopiedAlert)
+            .catch(fallbackCopy);
+        } else {
+          fallbackCopy();
+        }
       }
 
       function showCopiedAlert() {
@@ -318,15 +340,16 @@
       }
 
       function init() {
+        if (new URLSearchParams(window.location.search).get("_deeplink"))
+          return;
+
         if (detectInstagramWebView()) {
-          // Instagram: show instructions, DO NOT try to open the app
           document.getElementById("normal-content").classList.add("hidden");
           document
             .getElementById("instagram-content")
             .classList.remove("hidden");
           document.getElementById("subtitle").textContent = "";
         } else {
-          // Normal browser: try to open the app automatically
           document.getElementById("normal-content").classList.remove("hidden");
           document.getElementById("instagram-content").classList.add("hidden");
           openApp();
