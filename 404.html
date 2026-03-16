@@ -157,6 +157,7 @@
       .pulse {
         animation: pulse 2s infinite;
       }
+
       .hidden {
         display: none;
       }
@@ -166,21 +167,21 @@
   <body>
     <div class="container">
       <h1>📱 CopeoApp</h1>
-      <p class="subtitle" id="subtitle">Visit our official website!</p>
+      <p class="subtitle">Visit our official website!</p>
 
       <div id="normal-content">
         <div class="loading" id="loading">
           <div class="spinner"></div>
-          <p>Opening CopeoApp...</p>
+          <p>Redirecting to CopeoApp...</p>
         </div>
 
-        <button class="button primary" onclick="openApp()">🚀 Open App</button>
-        <button class="button" onclick="visitWebsite()">
+        <button class="button primary" onclick="visitWebsite()">
           🌐 Visit Website
         </button>
         <button class="button" onclick="copyToClipboard()">📋 Copy Link</button>
       </div>
 
+      <!-- Special message for Instagram -->
       <div id="instagram-content" class="hidden">
         <div class="instagram-warning">
           <h2>📱 Open in your browser!</h2>
@@ -197,20 +198,22 @@
                 <strong>"Open in browser"</strong>
               </li>
               <li>
-                <span class="icon">🚀</span>Done! Now the app will open
-                automatically
+                <span class="icon">🚀</span>Done! Now you can use CopeoApp
+                without issues
               </li>
             </ol>
           </div>
 
           <p style="font-size: 0.9em; opacity: 0.8; margin-top: 20px">
-            💡 Or copy this link and paste it directly in Safari or Chrome
+            💡 You can also copy this link and paste it directly in Safari or
+            Chrome
           </p>
         </div>
 
         <button class="button primary pulse" onclick="copyToClipboard()">
           📋 Copy Link
         </button>
+
         <button class="button" onclick="visitWebsite()">
           🌐 Visit Website
         </button>
@@ -218,110 +221,77 @@
     </div>
 
     <script>
-      const WEBSITE_URL = "https://copeoapp.com";
-      const APP_STORE_URL = "https://apps.apple.com/au/app/copeo/id6742548894";
-      const PLAY_STORE_URL =
-        "https://play.google.com/store/apps/details?id=com.copeo.copeoapp";
-
+      // Get current path from URL
+      const currentPath = window.location.pathname;
       const currentUrl = window.location.href;
+      const websiteUrl = "https://copeoapp.com/";
 
+      // Detect whether we are on Instagram WebView
       function detectInstagramWebView() {
-        const ua = navigator.userAgent || "";
-        const igPatterns = [
-          "Instagram",
-          "FBAN",
-          "FBAV",
-          "FB_IAB",
-          "FB4A",
-          "FBIOS",
-        ];
-        const isInstagramUA = igPatterns.some((p) => ua.includes(p));
-        const isInstagramReferrer = (document.referrer || "").includes(
-          "instagram.com",
-        );
-        return isInstagramUA || isInstagramReferrer;
+        const userAgent =
+          navigator.userAgent || navigator.vendor || window.opera;
+
+        // Detect Instagram on different platforms
+        const isInstagram =
+          userAgent.indexOf("Instagram") > -1 ||
+          userAgent.indexOf("FBAN") > -1 ||
+          userAgent.indexOf("FBAV") > -1;
+
+        // Also detect by referrer
+        const referrer = document.referrer || "";
+        const isFromInstagram = referrer.includes("instagram.com");
+
+        return isInstagram || isFromInstagram;
       }
 
-      function isIOS() {
-        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-      }
+      function showAppropriateContent() {
+        const normalContent = document.getElementById("normal-content");
+        const instagramContent = document.getElementById("instagram-content");
 
-      function isAndroid() {
-        return /android/i.test(navigator.userAgent);
-      }
+        if (detectInstagramWebView()) {
+          normalContent.classList.add("hidden");
+          instagramContent.classList.remove("hidden");
 
-      function openApp() {
-        if (sessionStorage.getItem("appOpenAttempted")) {
-          sessionStorage.removeItem("appOpenAttempted");
-          return;
-        }
-        sessionStorage.setItem("appOpenAttempted", "1");
-
-        document.getElementById("loading").style.display = "block";
-
-        const path =
-          window.location.pathname +
-          window.location.search +
-          window.location.hash;
-
-        if (isAndroid()) {
-          const intentUrl =
-            `intent://${window.location.host}${path}#Intent;` +
-            `scheme=https;` +
-            `package=com.copeo.copeoapp;` +
-            `S.browser_fallback_url=${encodeURIComponent(PLAY_STORE_URL)};` +
-            `end`;
-          window.location.href = intentUrl;
-
-          setTimeout(() => {
-            document.getElementById("loading").style.display = "none";
-          }, 2500);
-        } else if (isIOS()) {
-          const sep = currentUrl.includes("?") ? "&" : "?";
-          const iframe = document.createElement("iframe");
-          iframe.style.display = "none";
-          iframe.src = currentUrl + sep + "_deeplink=1";
-          document.body.appendChild(iframe);
-
-          setTimeout(() => {
-            document.body.removeChild(iframe);
-            document.getElementById("loading").style.display = "none";
-            if (!document.hidden) {
-              window.location.href = APP_STORE_URL;
-            }
-          }, 2500);
+          document.querySelector(".subtitle").textContent = "";
         } else {
-          document.getElementById("loading").style.display = "none";
-          window.location.href = WEBSITE_URL;
+          normalContent.classList.remove("hidden");
+          instagramContent.classList.add("hidden");
         }
       }
 
       function visitWebsite() {
-        window.location.href = WEBSITE_URL;
+        document.getElementById("loading").style.display = "block";
+
+        setTimeout(() => {
+          window.location.href = websiteUrl;
+        }, 1000);
       }
 
       function copyToClipboard() {
         if (navigator.clipboard) {
           navigator.clipboard
             .writeText(currentUrl)
-            .then(showCopiedAlert)
-            .catch(fallbackCopy);
+            .then(() => {
+              if (detectInstagramWebView()) {
+                alert(
+                  "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp properly.",
+                );
+              } else {
+                alert(
+                  "Link copied! Paste it in Safari or Chrome to open the app.",
+                );
+              }
+            })
+            .catch(() => {
+              fallbackCopyToClipboard();
+            });
         } else {
-          fallbackCopy();
+          fallbackCopyToClipboard();
         }
       }
 
-      function showCopiedAlert() {
-        if (detectInstagramWebView()) {
-          alert(
-            "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp.",
-          );
-        } else {
-          alert("Link copied! 📋");
-        }
-      }
-
-      function fallbackCopy() {
+      function fallbackCopyToClipboard() {
+        // Fallback for older browsers
         const textArea = document.createElement("textarea");
         textArea.value = currentUrl;
         textArea.style.position = "fixed";
@@ -330,33 +300,24 @@
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
+
         try {
           document.execCommand("copy");
-          showCopiedAlert();
+          alert(
+            "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp properly.",
+          );
         } catch (err) {
           alert("Please copy this link manually:\n" + currentUrl);
         }
+
         document.body.removeChild(textArea);
       }
 
-      function init() {
-        if (new URLSearchParams(window.location.search).get("_deeplink"))
-          return;
+      document.addEventListener("DOMContentLoaded", function () {
+        showAppropriateContent();
+      });
 
-        if (detectInstagramWebView()) {
-          document.getElementById("normal-content").classList.add("hidden");
-          document
-            .getElementById("instagram-content")
-            .classList.remove("hidden");
-          document.getElementById("subtitle").textContent = "";
-        } else {
-          document.getElementById("normal-content").classList.remove("hidden");
-          document.getElementById("instagram-content").classList.add("hidden");
-          openApp();
-        }
-      }
-
-      document.addEventListener("DOMContentLoaded", init);
+      showAppropriateContent();
     </script>
   </body>
 </html>
