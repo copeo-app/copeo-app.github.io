@@ -230,7 +230,9 @@
           📋 Copy Link
         </button>
 
-        <button class="button" onclick="goToStore()">⬇️ Download the app</button>
+        <button class="button" onclick="goToStore()">
+          ⬇️ Download the app
+        </button>
       </div>
     </div>
 
@@ -268,7 +270,9 @@
           ua,
         ) || (document.referrer || "").includes("instagram.com");
 
-      const isAppPath = APP_PATH_PREFIXES.some((p) => currentPath.startsWith(p));
+      const isAppPath = APP_PATH_PREFIXES.some((p) =>
+        currentPath.startsWith(p),
+      );
 
       // ---------------------------------------------------------------------
       // ACTIONS
@@ -298,23 +302,25 @@
         // + path "/plan/123" so go_router receives the same path as https.
         const schemeUrl = IOS_SCHEME + "://" + currentPath;
 
-        let appOpened = false;
-        const markOpened = function () {
-          if (document.hidden) appOpened = true;
+        // Fall back to the store only if the app didn't take over. Cancel the
+        // timer (don't just flag it) on any sign the app opened, so a timer that
+        // was suspended while the app was foregrounded can't fire the store when
+        // the user returns to the browser.
+        const storeTimer = setTimeout(function () {
+          if (document.visibilityState === "hidden") return;
+          goToStore();
+        }, 2000);
+
+        const cancelFallback = function () {
+          clearTimeout(storeTimer);
         };
-        document.addEventListener("visibilitychange", markOpened);
-        window.addEventListener("pagehide", function () {
-          appOpened = true;
+        document.addEventListener("visibilitychange", function () {
+          if (document.hidden) cancelFallback();
         });
+        window.addEventListener("pagehide", cancelFallback);
+        window.addEventListener("blur", cancelFallback);
 
         window.location.href = schemeUrl;
-
-        // If we're still visible after the delay, the app didn't open.
-        setTimeout(function () {
-          if (!appOpened && !document.hidden) {
-            goToStore();
-          }
-        }, 1500);
       }
 
       function goToStore() {
