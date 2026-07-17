@@ -167,12 +167,27 @@
   <body>
     <div class="container">
       <h1>📱 CopeoApp</h1>
-      <p class="subtitle">Visit our official website!</p>
+      <p class="subtitle" id="subtitle">Visit our official website!</p>
 
-      <div id="normal-content">
-        <div class="loading" id="loading">
+      <!-- State: trying to open the native app (only for deep-link paths) -->
+      <div id="opening-content" class="hidden">
+        <div class="loading" id="loading" style="display: block">
           <div class="spinner"></div>
-          <p>Redirecting to CopeoApp...</p>
+          <p>Opening CopeoApp…</p>
+        </div>
+        <button class="button primary" onclick="openApp()">
+          🚀 Open in the app
+        </button>
+        <button class="button" onclick="goToStore()">
+          ⬇️ Download the app
+        </button>
+      </div>
+
+      <!-- State: regular 404 / non deep-link path -->
+      <div id="normal-content" class="hidden">
+        <div class="loading" id="normal-loading">
+          <div class="spinner"></div>
+          <p>Redirecting to CopeoApp…</p>
         </div>
 
         <button class="button primary" onclick="visitWebsite()">
@@ -181,25 +196,26 @@
         <button class="button" onclick="copyToClipboard()">📋 Copy Link</button>
       </div>
 
-      <!-- Special message for Instagram -->
+      <!-- State: in-app browser (Instagram / WhatsApp / Facebook) needs escaping -->
       <div id="instagram-content" class="hidden">
         <div class="instagram-warning">
           <h2>📱 Open in your browser!</h2>
-          <p>You're viewing this from Instagram. To use CopeoApp properly:</p>
+          <p>
+            You're viewing this from an in-app browser. To open it in CopeoApp:
+          </p>
 
           <div class="steps">
             <ol>
               <li>
                 <span class="icon">👆</span>Tap the
-                <strong>three dots (⋯)</strong> in the top right corner
+                <strong>menu (⋯ or ⋮)</strong> in the corner
               </li>
               <li>
                 <span class="icon">🌐</span>Select
                 <strong>"Open in browser"</strong>
               </li>
               <li>
-                <span class="icon">🚀</span>Done! Now you can use CopeoApp
-                without issues
+                <span class="icon">🚀</span>Done! The link will open CopeoApp
               </li>
             </ol>
           </div>
@@ -214,56 +230,101 @@
           📋 Copy Link
         </button>
 
-        <button class="button" onclick="visitWebsite()">
-          🌐 Visit Website
-        </button>
+        <button class="button" onclick="goToStore()">⬇️ Download the app</button>
       </div>
     </div>
 
     <script>
-      // Get current path from URL
-      const currentPath = window.location.pathname;
+      // ---------------------------------------------------------------------
+      // CONFIG
+      // ---------------------------------------------------------------------
+      // Numeric App Store ID (apps.apple.com/app/id<ID>).
+      const APP_STORE_ID = "6742548894";
+
+      const IOS_SCHEME = "com.copeo.copeoapp"; // prod custom URL scheme
+      const ANDROID_PACKAGE = "com.copeo.copeoapp"; // prod applicationId
+      const APP_LINK_HOST = "copeo-app.github.io"; // verified https App Link host
+      const WEBSITE_URL = "https://copeoapp.com/";
+      const PLAY_STORE_URL =
+        "https://play.google.com/store/apps/details?id=" + ANDROID_PACKAGE;
+      const APP_STORE_URL = "https://apps.apple.com/app/id" + APP_STORE_ID;
+
+      // Paths that correspond to real in-app screens (go_router routes).
+      const APP_PATH_PREFIXES = ["/plan/", "/event/", "/feeds-post/"];
+
+      // ---------------------------------------------------------------------
+      // STATE
+      // ---------------------------------------------------------------------
+      const currentPath = window.location.pathname; // e.g. /plan/123
       const currentUrl = window.location.href;
-      const websiteUrl = "https://copeoapp.com/";
+      const ua = navigator.userAgent || navigator.vendor || window.opera || "";
 
-      // Detect whether we are on Instagram WebView
-      function detectInstagramWebView() {
-        const userAgent =
-          navigator.userAgent || navigator.vendor || window.opera;
+      const isIOS =
+        /iPhone|iPad|iPod/i.test(ua) ||
+        (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      const isAndroid = /Android/i.test(ua);
+      const isInAppBrowser =
+        /Instagram|FBAN|FBAV|FB_IAB|WhatsApp|Line\/|MicroMessenger|Twitter/i.test(
+          ua,
+        ) || (document.referrer || "").includes("instagram.com");
 
-        // Detect Instagram on different platforms
-        const isInstagram =
-          userAgent.indexOf("Instagram") > -1 ||
-          userAgent.indexOf("FBAN") > -1 ||
-          userAgent.indexOf("FBAV") > -1;
+      const isAppPath = APP_PATH_PREFIXES.some((p) => currentPath.startsWith(p));
 
-        // Also detect by referrer
-        const referrer = document.referrer || "";
-        const isFromInstagram = referrer.includes("instagram.com");
+      // ---------------------------------------------------------------------
+      // ACTIONS
+      // ---------------------------------------------------------------------
 
-        return isInstagram || isFromInstagram;
+      // Try to open the native app, preserving the path. Falls back to the
+      // store if the app doesn't take over (not installed / scheme blocked).
+      function openApp() {
+        if (isAndroid) {
+          // intent:// reuses the already-verified https App Link and handles
+          // the Play Store fallback natively via browser_fallback_url.
+          const intentUrl =
+            "intent://" +
+            APP_LINK_HOST +
+            currentPath +
+            "#Intent;scheme=https;package=" +
+            ANDROID_PACKAGE +
+            ";S.browser_fallback_url=" +
+            encodeURIComponent(PLAY_STORE_URL) +
+            ";end";
+          window.location.href = intentUrl;
+          return;
+        }
+
+        // iOS (and anything else): custom URL scheme works inside WKWebView
+        // in-app browsers, unlike Universal Links. Triple slash => empty host
+        // + path "/plan/123" so go_router receives the same path as https.
+        const schemeUrl = IOS_SCHEME + "://" + currentPath;
+
+        let appOpened = false;
+        const markOpened = function () {
+          if (document.hidden) appOpened = true;
+        };
+        document.addEventListener("visibilitychange", markOpened);
+        window.addEventListener("pagehide", function () {
+          appOpened = true;
+        });
+
+        window.location.href = schemeUrl;
+
+        // If we're still visible after the delay, the app didn't open.
+        setTimeout(function () {
+          if (!appOpened && !document.hidden) {
+            goToStore();
+          }
+        }, 1500);
       }
 
-      function showAppropriateContent() {
-        const normalContent = document.getElementById("normal-content");
-        const instagramContent = document.getElementById("instagram-content");
-
-        if (detectInstagramWebView()) {
-          normalContent.classList.add("hidden");
-          instagramContent.classList.remove("hidden");
-
-          document.querySelector(".subtitle").textContent = "";
-        } else {
-          normalContent.classList.remove("hidden");
-          instagramContent.classList.add("hidden");
-        }
+      function goToStore() {
+        window.location.href = isAndroid ? PLAY_STORE_URL : APP_STORE_URL;
       }
 
       function visitWebsite() {
-        document.getElementById("loading").style.display = "block";
-
-        setTimeout(() => {
-          window.location.href = websiteUrl;
+        document.getElementById("normal-loading").style.display = "block";
+        setTimeout(function () {
+          window.location.href = WEBSITE_URL;
         }, 1000);
       }
 
@@ -271,27 +332,18 @@
         if (navigator.clipboard) {
           navigator.clipboard
             .writeText(currentUrl)
-            .then(() => {
-              if (detectInstagramWebView()) {
-                alert(
-                  "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp properly.",
-                );
-              } else {
-                alert(
-                  "Link copied! Paste it in Safari or Chrome to open the app.",
-                );
-              }
+            .then(function () {
+              alert(
+                "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp.",
+              );
             })
-            .catch(() => {
-              fallbackCopyToClipboard();
-            });
+            .catch(fallbackCopyToClipboard);
         } else {
           fallbackCopyToClipboard();
         }
       }
 
       function fallbackCopyToClipboard() {
-        // Fallback for older browsers
         const textArea = document.createElement("textarea");
         textArea.value = currentUrl;
         textArea.style.position = "fixed";
@@ -300,24 +352,62 @@
         document.body.appendChild(textArea);
         textArea.focus();
         textArea.select();
-
         try {
           document.execCommand("copy");
           alert(
-            "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp properly.",
+            "Link copied! 📋\n\nNow paste it in Safari or Chrome to open CopeoApp.",
           );
         } catch (err) {
           alert("Please copy this link manually:\n" + currentUrl);
         }
-
         document.body.removeChild(textArea);
       }
 
-      document.addEventListener("DOMContentLoaded", function () {
-        showAppropriateContent();
-      });
+      // ---------------------------------------------------------------------
+      // ROUTING: decide which state to show on load
+      // ---------------------------------------------------------------------
+      function show(id) {
+        document.getElementById(id).classList.remove("hidden");
+      }
 
-      showAppropriateContent();
+      let initialized = false;
+      function init() {
+        if (initialized) return;
+        initialized = true;
+
+        if (!isAppPath) {
+          // A genuine 404 / non deep-link path: keep the original behaviour.
+          document.getElementById("subtitle").textContent =
+            "Visit our official website!";
+          show("normal-content");
+          return;
+        }
+
+        // Deep-link path.
+        if (isIOS && isInAppBrowser) {
+          // iOS WKWebView often blocks custom schemes (esp. WhatsApp): try the
+          // scheme, but also surface the "open in browser" instructions.
+          document.getElementById("subtitle").textContent = "";
+          show("instagram-content");
+          openApp();
+          return;
+        }
+
+        // Normal browser (iOS/Android) or Android in-app browser: attempt to
+        // open the app directly with store fallback.
+        document.getElementById("subtitle").textContent = "";
+        show("opening-content");
+        openApp();
+      }
+
+      document.addEventListener("DOMContentLoaded", init);
+      // DOMContentLoaded may have already fired for a cached 404 body.
+      if (
+        document.readyState === "interactive" ||
+        document.readyState === "complete"
+      ) {
+        init();
+      }
     </script>
   </body>
 </html>
