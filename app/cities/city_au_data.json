@@ -1,0 +1,1498 @@
+[
+  {
+    "nameKey": "adelaide",
+    "countryCode": "AU",
+    "latitude": -34.92866,
+    "longitude": 138.59863,
+    "wikidataId": "Q354633",
+    "translations": {
+      "en": "Adelaide",
+      "es": "Adelaida",
+      "fr": "Adélaïde",
+      "it": "Adelaide",
+      "ja": "アデレード",
+      "pt": "Adelaide",
+      "th": "แอดิเลด",
+      "zh": "阿德莱德"
+    }
+  },
+  {
+    "nameKey": "albany",
+    "countryCode": "AU",
+    "latitude": -34.7099,
+    "longitude": 118.12345,
+    "wikidataId": "Q704257",
+    "translations": {
+      "en": "Albany",
+      "es": "Albany",
+      "fr": "Albany",
+      "it": "Albany",
+      "ja": "オールバニ",
+      "pt": "Albany",
+      "th": "ออลบานี",
+      "zh": "奥尔巴尼"
+    }
+  },
+  {
+    "nameKey": "albury",
+    "countryCode": "AU",
+    "latitude": -36.07482,
+    "longitude": 146.92401,
+    "wikidataId": "Q331764",
+    "translations": {
+      "en": "Albury",
+      "es": "Albury",
+      "fr": "Albury",
+      "it": "Albury",
+      "ja": "オルベリー",
+      "pt": "Albury",
+      "th": "อัลบิวรี",
+      "zh": "奥尔伯里"
+    }
+  },
+  {
+    "nameKey": "aliceSprings",
+    "countryCode": "AU",
+    "latitude": -23.69748,
+    "longitude": 133.88362,
+    "wikidataId": "Q17872",
+    "translations": {
+      "en": "Alice Springs",
+      "es": "Alice Springs",
+      "fr": "Alice Springs",
+      "it": "Alice Springs",
+      "ja": "アリススプリングス",
+      "pt": "Alice Springs",
+      "th": "อลิซสปริงส์",
+      "zh": "艾利斯斯普林斯"
+    }
+  },
+  {
+    "nameKey": "armidale",
+    "countryCode": "AU",
+    "latitude": -30.50123,
+    "longitude": 151.66553,
+    "wikidataId": "Q606169",
+    "translations": {
+      "en": "Armidale",
+      "es": "Armidale",
+      "fr": "Armidale",
+      "it": "Armidale",
+      "ja": "アーミデール",
+      "pt": "Armidale",
+      "th": "อาร์มิเดล",
+      "zh": "阿米代尔"
+    }
+  },
+  {
+    "nameKey": "airlieBeach",
+    "countryCode": "AU",
+    "latitude": -20.26751,
+    "longitude": 148.71471,
+    "wikidataId": "Q408765",
+    "translations": {
+      "en": "Airlie Beach",
+      "es": "Airlie Beach",
+      "fr": "Airlie Beach",
+      "it": "Airlie Beach",
+      "ja": "エアリービーチ",
+      "pt": "Airlie Beach",
+      "th": "แอร์ลีบีช",
+      "zh": "艾尔利海滩"
+    }
+  },
+  {
+    "nameKey": "ballarat",
+    "countryCode": "AU",
+    "latitude": -37.56622,
+    "longitude": 143.84957,
+    "wikidataId": "Q17856",
+    "translations": {
+      "en": "Ballarat",
+      "es": "Ballarat",
+      "fr": "Ballarat",
+      "it": "Ballarat",
+      "ja": "バララット",
+      "pt": "Ballarat",
+      "th": "บัลลาแรต",
+      "zh": "巴拉瑞特"
+    }
+  },
+  {
+    "nameKey": "bathurst",
+    "countryCode": "AU",
+    "latitude": -33.41665,
+    "longitude": 149.5806,
+    "wikidataId": "Q704978",
+    "translations": {
+      "en": "Bathurst",
+      "es": "Bathurst",
+      "fr": "Bathurst",
+      "it": "Bathurst",
+      "ja": "バサースト",
+      "pt": "Bathurst",
+      "th": "แบทเฮิร์สต์",
+      "zh": "巴瑟斯特"
+    }
+  },
+  {
+    "nameKey": "benalla",
+    "countryCode": "AU",
+    "latitude": -36.59041,
+    "longitude": 146.02812,
+    "wikidataId": "Q816673",
+    "translations": {
+      "en": "Benalla",
+      "es": "Benalla",
+      "fr": "Benalla",
+      "it": "Benalla",
+      "ja": "ベナラ",
+      "pt": "Benalla",
+      "th": "เบนัลลา",
+      "zh": "贝纳拉"
+    }
+  },
+  {
+    "nameKey": "bendigo",
+    "countryCode": "AU",
+    "latitude": -36.75818,
+    "longitude": 144.28024,
+    "wikidataId": "Q497793",
+    "translations": {
+      "en": "Bendigo",
+      "es": "Bendigo",
+      "fr": "Bendigo",
+      "it": "Bendigo",
+      "ja": "ベンディゴ",
+      "pt": "Bendigo",
+      "th": "เบนดิโก",
+      "zh": "本迪戈"
+    }
+  },
+  {
+    "nameKey": "byronBay",
+    "countryCode": "AU",
+    "latitude": -28.64353,
+    "longitude": 153.61361,
+    "wikidataId": "Q1018597",
+    "translations": {
+      "en": "Byron Bay",
+      "es": "Byron Bay",
+      "fr": "Byron Bay",
+      "it": "Byron Bay",
+      "ja": "バイロンベイ",
+      "pt": "Byron Bay",
+      "th": "ไบรอนเบย์",
+      "zh": "拜伦湾"
+    }
+  },
+  {
+    "nameKey": "brisbane",
+    "countryCode": "AU",
+    "latitude": -27.46794,
+    "longitude": 153.02809,
+    "wikidataId": "Q34932",
+    "translations": {
+      "en": "Brisbane",
+      "es": "Brisbane",
+      "fr": "Brisbane",
+      "it": "Brisbane",
+      "ja": "ブリスベン",
+      "pt": "Brisbane",
+      "th": "บริสเบน",
+      "zh": "布里斯班"
+    }
+  },
+  {
+    "nameKey": "brokenHill",
+    "countryCode": "AU",
+    "latitude": -31.9652,
+    "longitude": 141.4512,
+    "wikidataId": "Q270734",
+    "translations": {
+      "en": "Broken Hill",
+      "es": "Broken Hill",
+      "fr": "Broken Hill",
+      "it": "Broken Hill",
+      "ja": "ブロークンヒル",
+      "pt": "Broken Hill",
+      "th": "โบรเคนฮิลล์",
+      "zh": "布罗肯希尔"
+    }
+  },
+  {
+    "nameKey": "broome",
+    "countryCode": "AU",
+    "latitude": -17.94041,
+    "longitude": 122.64038,
+    "wikidataId": "Q606294",
+    "translations": {
+      "en": "Broome",
+      "es": "Broome",
+      "fr": "Broome",
+      "it": "Broome",
+      "ja": "ブルーム",
+      "pt": "Broome",
+      "th": "บรูม",
+      "zh": "布鲁姆"
+    }
+  },
+  {
+    "nameKey": "bundaberg",
+    "countryCode": "AU",
+    "latitude": -24.97305,
+    "longitude": 151.98442,
+    "wikidataId": "Q185404",
+    "translations": {
+      "en": "Bundaberg",
+      "es": "Bundaberg",
+      "fr": "Bundaberg",
+      "it": "Bundaberg",
+      "ja": "バンダバーグ",
+      "pt": "Bundaberg",
+      "th": "บันดาเบิร์ก",
+      "zh": "班达伯格"
+    }
+  },
+  {
+    "nameKey": "bunbury",
+    "countryCode": "AU",
+    "latitude": -33.32711,
+    "longitude": 115.64137,
+    "wikidataId": "Q256711",
+    "translations": {
+      "en": "Bunbury",
+      "es": "Bunbury",
+      "fr": "Bunbury",
+      "it": "Bunbury",
+      "ja": "バンバリー",
+      "pt": "Bunbury",
+      "th": "บันบิวรี",
+      "zh": "班伯里"
+    }
+  },
+  {
+    "nameKey": "burnie",
+    "countryCode": "AU",
+    "latitude": -41.1965,
+    "longitude": 145.81136,
+    "wikidataId": "Q175262",
+    "translations": {
+      "en": "Burnie",
+      "es": "Burnie",
+      "fr": "Burnie",
+      "it": "Burnie",
+      "ja": "バーニー",
+      "pt": "Burnie",
+      "th": "เบอร์นี",
+      "zh": "伯尼"
+    }
+  },
+  {
+    "nameKey": "cairns",
+    "countryCode": "AU",
+    "latitude": -16.90268,
+    "longitude": 145.75287,
+    "wikidataId": "Q189133",
+    "translations": {
+      "en": "Cairns",
+      "es": "Cairns",
+      "fr": "Cairns",
+      "it": "Cairns",
+      "ja": "ケアンズ",
+      "pt": "Cairns",
+      "th": "แคร์นส์",
+      "zh": "凯恩斯"
+    }
+  },
+  {
+    "nameKey": "canberra",
+    "countryCode": "AU",
+    "latitude": -35.28346,
+    "longitude": 149.12807,
+    "wikidataId": "Q3114",
+    "translations": {
+      "en": "Canberra",
+      "es": "Canberra",
+      "fr": "Canberra",
+      "it": "Canberra",
+      "ja": "キャンベラ",
+      "pt": "Camberra",
+      "th": "แคนเบอร์รา",
+      "zh": "堪培拉"
+    }
+  },
+  {
+    "nameKey": "cessnock",
+    "countryCode": "AU",
+    "latitude": -32.89391,
+    "longitude": 151.21234,
+    "wikidataId": "Q606357",
+    "translations": {
+      "en": "Cessnock",
+      "es": "Cessnock",
+      "fr": "Cessnock",
+      "it": "Cessnock",
+      "ja": "セスノック",
+      "pt": "Cessnock",
+      "th": "เซสน็อก",
+      "zh": "塞斯诺克"
+    }
+  },
+  {
+    "nameKey": "chartersTowers",
+    "countryCode": "AU",
+    "latitude": -20.20927,
+    "longitude": 145.81645,
+    "wikidataId": "Q1020266",
+    "translations": {
+      "en": "Charters Towers",
+      "es": "Charters Towers",
+      "fr": "Charters Towers",
+      "it": "Charters Towers",
+      "ja": "チャーターズタワーズ",
+      "pt": "Charters Towers",
+      "th": "ชาร์เตอร์สทาวเวอร์ส",
+      "zh": "查特斯堡"
+    }
+  },
+  {
+    "nameKey": "clarence",
+    "countryCode": "AU",
+    "latitude": -42.87369,
+    "longitude": 147.44725,
+    "wikidataId": "Q5126357",
+    "translations": {
+      "en": "Clarence",
+      "es": "Clarence",
+      "fr": "Clarence",
+      "it": "Clarence",
+      "ja": "クラレンス",
+      "pt": "Clarence",
+      "th": "แคลเรนซ์",
+      "zh": "克拉伦斯"
+    }
+  },
+  {
+    "nameKey": "coffsHarbour",
+    "countryCode": "AU",
+    "latitude": -30.17294,
+    "longitude": 153.03262,
+    "wikidataId": "Q604283",
+    "translations": {
+      "en": "Coffs Harbour",
+      "es": "Coffs Harbour",
+      "fr": "Coffs Harbour",
+      "it": "Coffs Harbour",
+      "ja": "コフスハーバー",
+      "pt": "Coffs Harbour",
+      "th": "คอฟส์ฮาร์เบอร์",
+      "zh": "科夫斯港"
+    }
+  },
+  {
+    "nameKey": "darwin",
+    "countryCode": "AU",
+    "latitude": -12.46113,
+    "longitude": 130.84185,
+    "wikidataId": "Q11568",
+    "translations": {
+      "en": "Darwin",
+      "es": "Darwin",
+      "fr": "Darwin",
+      "it": "Darwin",
+      "ja": "ダーウィン",
+      "pt": "Darwin",
+      "th": "ดาร์วิน",
+      "zh": "达尔文"
+    }
+  },
+  {
+    "nameKey": "devonport",
+    "countryCode": "AU",
+    "latitude": -41.21296,
+    "longitude": 146.32401,
+    "wikidataId": "Q705705",
+    "translations": {
+      "en": "Devonport",
+      "es": "Devonport",
+      "fr": "Devonport",
+      "it": "Devonport",
+      "ja": "デボンポート",
+      "pt": "Devonport",
+      "th": "เดวอนพอร์ต",
+      "zh": "德文波特"
+    }
+  },
+  {
+    "nameKey": "dubbo",
+    "countryCode": "AU",
+    "latitude": -32.24295,
+    "longitude": 148.60484,
+    "wikidataId": "Q706105",
+    "translations": {
+      "en": "Dubbo",
+      "es": "Dubbo",
+      "fr": "Dubbo",
+      "it": "Dubbo",
+      "ja": "ダボ",
+      "pt": "Dubbo",
+      "th": "ดับโบ",
+      "zh": "达博"
+    }
+  },
+  {
+    "nameKey": "fremantle",
+    "countryCode": "AU",
+    "latitude": -32.05165,
+    "longitude": 115.76379,
+    "wikidataId": "Q606212",
+    "translations": {
+      "en": "Fremantle",
+      "es": "Fremantle",
+      "fr": "Fremantle",
+      "it": "Fremantle",
+      "ja": "フリーマントル",
+      "pt": "Fremantle",
+      "th": "ฟรีแมนเทิล",
+      "zh": "弗里曼特尔"
+    }
+  },
+  {
+    "nameKey": "geelong",
+    "countryCode": "AU",
+    "latitude": -38.14711,
+    "longitude": 144.36069,
+    "wikidataId": "Q231765",
+    "translations": {
+      "en": "Geelong",
+      "es": "Geelong",
+      "fr": "Geelong",
+      "it": "Geelong",
+      "ja": "ジーロング",
+      "pt": "Geelong",
+      "th": "จีลอง",
+      "zh": "吉朗"
+    }
+  },
+  {
+    "nameKey": "geraldton",
+    "countryCode": "AU",
+    "latitude": -28.77897,
+    "longitude": 114.61459,
+    "wikidataId": "Q605267",
+    "translations": {
+      "en": "Geraldton",
+      "es": "Geraldton",
+      "fr": "Geraldton",
+      "it": "Geraldton",
+      "ja": "ジェラルトン",
+      "pt": "Geraldton",
+      "th": "เจอรัลด์ตัน",
+      "zh": "杰拉尔顿"
+    }
+  },
+  {
+    "nameKey": "gladstone",
+    "countryCode": "AU",
+    "latitude": -24.01869,
+    "longitude": 151.65818,
+    "wikidataId": "Q705699",
+    "translations": {
+      "en": "Gladstone",
+      "es": "Gladstone",
+      "fr": "Gladstone",
+      "it": "Gladstone",
+      "ja": "グラッドストーン",
+      "pt": "Gladstone",
+      "th": "แกลดสโตน",
+      "zh": "格拉德斯通"
+    }
+  },
+  {
+    "nameKey": "glenorchy",
+    "countryCode": "AU",
+    "latitude": -42.83188,
+    "longitude": 147.22954,
+    "wikidataId": "Q1531147",
+    "translations": {
+      "en": "Glenorchy",
+      "es": "Glenorchy",
+      "fr": "Glenorchy",
+      "it": "Glenorchy",
+      "ja": "グレノーキー",
+      "pt": "Glenorchy",
+      "th": "เกลนอร์คี",
+      "zh": "格莱诺基"
+    }
+  },
+  {
+    "nameKey": "goldCoast",
+    "countryCode": "AU",
+    "latitude": -28.00029,
+    "longitude": 153.43088,
+    "wikidataId": "Q140075",
+    "translations": {
+      "en": "Gold Coast",
+      "es": "Gold Coast",
+      "fr": "Gold Coast",
+      "it": "Gold Coast",
+      "ja": "ゴールドコースト",
+      "pt": "Gold Coast",
+      "th": "โกลด์โคสต์",
+      "zh": "黄金海岸"
+    }
+  },
+  {
+    "nameKey": "gosford",
+    "countryCode": "AU",
+    "latitude": -33.4244,
+    "longitude": 151.34399,
+    "wikidataId": "Q605113",
+    "translations": {
+      "en": "Gosford",
+      "es": "Gosford",
+      "fr": "Gosford",
+      "it": "Gosford",
+      "ja": "ゴスフォード",
+      "pt": "Gosford",
+      "th": "กอสฟอร์ด",
+      "zh": "戈斯福德"
+    }
+  },
+  {
+    "nameKey": "goulburn",
+    "countryCode": "AU",
+    "latitude": -34.75155,
+    "longitude": 149.72086,
+    "wikidataId": "Q605235",
+    "translations": {
+      "en": "Goulburn",
+      "es": "Goulburn",
+      "fr": "Goulburn",
+      "it": "Goulburn",
+      "ja": "ゴールバーン",
+      "pt": "Goulburn",
+      "th": "กูลเบิร์น",
+      "zh": "古尔本"
+    }
+  },
+  {
+    "nameKey": "grafton",
+    "countryCode": "AU",
+    "latitude": -29.68104,
+    "longitude": 152.93394,
+    "wikidataId": "Q1025587",
+    "translations": {
+      "en": "Grafton",
+      "es": "Grafton",
+      "fr": "Grafton",
+      "it": "Grafton",
+      "ja": "グラフトン",
+      "pt": "Grafton",
+      "th": "กราฟตัน",
+      "zh": "格拉夫顿"
+    }
+  },
+  {
+    "nameKey": "griffith",
+    "countryCode": "AU",
+    "latitude": -34.33448,
+    "longitude": 146.02295,
+    "wikidataId": "Q14217100",
+    "translations": {
+      "en": "Griffith",
+      "es": "Griffith",
+      "fr": "Griffith",
+      "it": "Griffith",
+      "ja": "グリフィス",
+      "pt": "Griffith",
+      "th": "กริฟฟิธ",
+      "zh": "格里菲斯"
+    }
+  },
+  {
+    "nameKey": "gympie",
+    "countryCode": "AU",
+    "latitude": -26.18979,
+    "longitude": 152.66499,
+    "wikidataId": "Q1558442",
+    "translations": {
+      "en": "Gympie",
+      "es": "Gympie",
+      "fr": "Gympie",
+      "it": "Gympie",
+      "ja": "ギンピー",
+      "pt": "Gympie",
+      "th": "กิมพี",
+      "zh": "金皮"
+    }
+  },
+  {
+    "nameKey": "herveyBay",
+    "countryCode": "AU",
+    "latitude": -25.28762,
+    "longitude": 152.76936,
+    "wikidataId": "Q606324",
+    "translations": {
+      "en": "Hervey Bay",
+      "es": "Bahía Hervey",
+      "fr": "Hervey Bay",
+      "it": "Hervey Bay",
+      "ja": "ハービーベイ",
+      "pt": "Hervey Bay",
+      "th": "เฮอร์วีย์เบย์",
+      "zh": "赫维湾"
+    }
+  },
+  {
+    "nameKey": "hobart",
+    "countryCode": "AU",
+    "latitude": -42.87936,
+    "longitude": 147.32941,
+    "wikidataId": "Q40191",
+    "translations": {
+      "en": "Hobart",
+      "es": "Hobart",
+      "fr": "Hobart",
+      "it": "Hobart",
+      "ja": "ホバート",
+      "pt": "Hobart",
+      "th": "โฮบาร์ต",
+      "zh": "霍巴特"
+    }
+  },
+  {
+    "nameKey": "ipswich",
+    "countryCode": "AU",
+    "latitude": -27.6779,
+    "longitude": 152.66188,
+    "wikidataId": "Q1009253",
+    "translations": {
+      "en": "Ipswich",
+      "es": "Ipswich",
+      "fr": "Ipswich",
+      "it": "Ipswich",
+      "ja": "イプスウィッチ",
+      "pt": "Ipswich",
+      "th": "อิปสวิช",
+      "zh": "伊普斯维奇"
+    }
+  },
+  {
+    "nameKey": "kalgoorlie",
+    "countryCode": "AU",
+    "latitude": -30.74614,
+    "longitude": 121.4742,
+    "wikidataId": "Q329503",
+    "translations": {
+      "en": "Kalgoorlie",
+      "es": "Kalgoorlie",
+      "fr": "Kalgoorlie",
+      "it": "Kalgoorlie",
+      "ja": "カルグーリー",
+      "pt": "Kalgoorlie",
+      "th": "คัลกูร์ลี",
+      "zh": "卡尔古利"
+    }
+  },
+  {
+    "nameKey": "katherine",
+    "countryCode": "AU",
+    "latitude": -14.65012,
+    "longitude": 132.17414,
+    "wikidataId": "Q17980",
+    "translations": {
+      "en": "Katherine",
+      "es": "Katherine",
+      "fr": "Katherine",
+      "it": "Katherine",
+      "ja": "キャサリン",
+      "pt": "Katherine",
+      "th": "แคทเธอรีน",
+      "zh": "凯瑟琳"
+    }
+  },
+  {
+    "nameKey": "lakeMacquarie",
+    "countryCode": "AU",
+    "latitude": -33.03756,
+    "longitude": 151.5347,
+    "wikidataId": "Q606193",
+    "translations": {
+      "en": "Lake Macquarie",
+      "es": "Lago Macquarie",
+      "fr": "Lake Macquarie",
+      "it": "Lake Macquarie",
+      "ja": "レイクマッコーリー",
+      "pt": "Lake Macquarie",
+      "th": "เลกแมคควอรี",
+      "zh": "麦觉理湖"
+    }
+  },
+  {
+    "nameKey": "launceston",
+    "countryCode": "AU",
+    "latitude": -41.43876,
+    "longitude": 147.13467,
+    "wikidataId": "Q339527",
+    "translations": {
+      "en": "Launceston",
+      "es": "Launceston",
+      "fr": "Launceston",
+      "it": "Launceston",
+      "ja": "ロンセストン",
+      "pt": "Launceston",
+      "th": "ลอนเซสตัน",
+      "zh": "朗塞斯顿"
+    }
+  },
+  {
+    "nameKey": "latrobeCity",
+    "countryCode": "AU",
+    "latitude": -41.21551,
+    "longitude": 146.40656,
+    "wikidataId": "Q1475256",
+    "translations": {
+      "en": "Latrobe City",
+      "es": "Ciudad Latrobe",
+      "fr": "Latrobe City",
+      "it": "Latrobe City",
+      "ja": "ラトローブシティ",
+      "pt": "Latrobe City",
+      "th": "ลาโทรบซิตี้",
+      "zh": "拉筹伯市"
+    }
+  },
+  {
+    "nameKey": "lismore",
+    "countryCode": "AU",
+    "latitude": -28.81354,
+    "longitude": 153.2773,
+    "wikidataId": "Q35001",
+    "translations": {
+      "en": "Lismore",
+      "es": "Lismore",
+      "fr": "Lismore",
+      "it": "Lismore",
+      "ja": "リズモア",
+      "pt": "Lismore",
+      "th": "ลิสมอร์",
+      "zh": "利斯莫尔"
+    }
+  },
+  {
+    "nameKey": "loganCity",
+    "countryCode": "AU",
+    "latitude": -27.63917,
+    "longitude": 153.10944,
+    "wikidataId": "Q1782552",
+    "translations": {
+      "en": "Logan City",
+      "es": "Ciudad Logan",
+      "fr": "Logan City",
+      "it": "Logan City",
+      "ja": "ローガンシティ",
+      "pt": "Logan City",
+      "th": "โลแกนซิตี้",
+      "zh": "洛根市"
+    }
+  },
+  {
+    "nameKey": "mackay",
+    "countryCode": "AU",
+    "latitude": -21.08189,
+    "longitude": 149.04265,
+    "wikidataId": "Q704371",
+    "translations": {
+      "en": "Mackay",
+      "es": "Mackay",
+      "fr": "Mackay",
+      "it": "Mackay",
+      "ja": "マッカイ",
+      "pt": "Mackay",
+      "th": "แมคเคย์",
+      "zh": "麦凯"
+    }
+  },
+  {
+    "nameKey": "maitland",
+    "countryCode": "AU",
+    "latitude": -34.37386,
+    "longitude": 137.67333,
+    "wikidataId": "Q606900",
+    "translations": {
+      "en": "Maitland",
+      "es": "Maitland",
+      "fr": "Maitland",
+      "it": "Maitland",
+      "ja": "メイトランド",
+      "pt": "Maitland",
+      "th": "เมทแลนด์",
+      "zh": "梅特兰"
+    }
+  },
+  {
+    "nameKey": "mandurah",
+    "countryCode": "AU",
+    "latitude": -32.5269,
+    "longitude": 115.7217,
+    "wikidataId": "Q595542",
+    "translations": {
+      "en": "Mandurah",
+      "es": "Mandurah",
+      "fr": "Mandurah",
+      "it": "Mandurah",
+      "ja": "マンジュラ",
+      "pt": "Mandurah",
+      "th": "แมนดูราห์",
+      "zh": "曼哲拉"
+    }
+  },
+  {
+    "nameKey": "maryborough",
+    "countryCode": "AU",
+    "latitude": -37.04562,
+    "longitude": 143.73923,
+    "wikidataId": "Q1014561",
+    "translations": {
+      "en": "Maryborough",
+      "es": "Maryborough",
+      "fr": "Maryborough",
+      "it": "Maryborough",
+      "ja": "メアリーバラ",
+      "pt": "Maryborough",
+      "th": "แมรีเบอเรอ",
+      "zh": "玛丽伯勒"
+    }
+  },
+  {
+    "nameKey": "melbourne",
+    "countryCode": "AU",
+    "latitude": -37.814,
+    "longitude": 144.96332,
+    "wikidataId": "Q3141",
+    "translations": {
+      "en": "Melbourne",
+      "es": "Melbourne",
+      "fr": "Melbourne",
+      "it": "Melbourne",
+      "ja": "メルボルン",
+      "pt": "Melbourne",
+      "th": "เมลเบิร์น",
+      "zh": "墨尔本"
+    }
+  },
+  {
+    "nameKey": "mildura",
+    "countryCode": "AU",
+    "latitude": -34.18551,
+    "longitude": 142.16251,
+    "wikidataId": "Q705829",
+    "translations": {
+      "en": "Mildura",
+      "es": "Mildura",
+      "fr": "Mildura",
+      "it": "Mildura",
+      "ja": "ミルデューラ",
+      "pt": "Mildura",
+      "th": "มิลดูรา",
+      "zh": "米尔迪拉"
+    }
+  },
+  {
+    "nameKey": "moree",
+    "countryCode": "AU",
+    "latitude": -29.464411,
+    "longitude": 149.845108,
+    "wikidataId": "Q187859",
+    "translations": {
+      "en": "Moree",
+      "es": "Moree",
+      "fr": "Moree",
+      "it": "Moree",
+      "ja": "モリー",
+      "pt": "Moree",
+      "th": "มอรี",
+      "zh": "莫里"
+    }
+  },
+  {
+    "nameKey": "mountGambier",
+    "countryCode": "AU",
+    "latitude": -37.82469,
+    "longitude": 140.78191,
+    "wikidataId": "Q327348",
+    "translations": {
+      "en": "Mount Gambier",
+      "es": "Monte Gambier",
+      "fr": "Mount Gambier",
+      "it": "Mount Gambier",
+      "ja": "マウントギャンビア",
+      "pt": "Mount Gambier",
+      "th": "เมาท์แกมเบียร์",
+      "zh": "甘比尔山"
+    }
+  },
+  {
+    "nameKey": "mountIsa",
+    "countryCode": "AU",
+    "latitude": -20.72523,
+    "longitude": 139.49727,
+    "wikidataId": "Q606335",
+    "translations": {
+      "en": "Mount Isa",
+      "es": "Monte Isa",
+      "fr": "Mount Isa",
+      "it": "Mount Isa",
+      "ja": "マウントアイザ",
+      "pt": "Mount Isa",
+      "th": "เมาท์ไอซา",
+      "zh": "伊萨山"
+    }
+  },
+  {
+    "nameKey": "murrayBridge",
+    "countryCode": "AU",
+    "latitude": -35.2002,
+    "longitude": 139.3209,
+    "wikidataId": "Q1641083",
+    "translations": {
+      "en": "Murray Bridge",
+      "es": "Murray Bridge",
+      "fr": "Murray Bridge",
+      "it": "Murray Bridge",
+      "ja": "マレーブリッジ",
+      "pt": "Murray Bridge",
+      "th": "มัร์เรย์บริดจ์",
+      "zh": "默里布里奇"
+    }
+  },
+  {
+    "nameKey": "nambour",
+    "countryCode": "AU",
+    "latitude": -26.62613,
+    "longitude": 152.95941,
+    "wikidataId": "Q1343166",
+    "translations": {
+      "en": "Nambour",
+      "es": "Nambour",
+      "fr": "Nambour",
+      "it": "Nambour",
+      "ja": "ナンブール",
+      "pt": "Nambour",
+      "th": "แนมเบอร์",
+      "zh": "南伯"
+    }
+  },
+  {
+    "nameKey": "newcastle",
+    "countryCode": "AU",
+    "latitude": -32.92953,
+    "longitude": 151.7801,
+    "wikidataId": "Q57278",
+    "translations": {
+      "en": "Newcastle",
+      "es": "Newcastle",
+      "fr": "Newcastle",
+      "it": "Newcastle",
+      "ja": "ニューカッスル",
+      "pt": "Newcastle",
+      "th": "นิวคาสเซิล",
+      "zh": "纽卡斯尔"
+    }
+  },
+  {
+    "nameKey": "nowra",
+    "countryCode": "AU",
+    "latitude": -34.88422,
+    "longitude": 150.60036,
+    "wikidataId": "Q1343021",
+    "translations": {
+      "en": "Nowra",
+      "es": "Nowra",
+      "fr": "Nowra",
+      "it": "Nowra",
+      "ja": "ノウラ",
+      "pt": "Nowra",
+      "th": "เนารา",
+      "zh": "瑙拉"
+    }
+  },
+  {
+    "nameKey": "orange",
+    "countryCode": "AU",
+    "latitude": -33.28397,
+    "longitude": 149.10018,
+    "wikidataId": "Q580973",
+    "translations": {
+      "en": "Orange",
+      "es": "Orange",
+      "fr": "Orange",
+      "it": "Orange",
+      "ja": "オレンジ",
+      "pt": "Orange",
+      "th": "ออเรนจ์",
+      "zh": "奥兰治"
+    }
+  },
+  {
+    "nameKey": "palmerston",
+    "countryCode": "AU",
+    "latitude": -12.4962,
+    "longitude": 130.97797,
+    "wikidataId": "Q17895",
+    "translations": {
+      "en": "Palmerston",
+      "es": "Palmerston",
+      "fr": "Palmerston",
+      "it": "Palmerston",
+      "ja": "パーマストン",
+      "pt": "Palmerston",
+      "th": "พาล์เมอร์สตัน",
+      "zh": "帕默斯顿"
+    }
+  },
+  {
+    "nameKey": "perth",
+    "countryCode": "AU",
+    "latitude": -31.95224,
+    "longitude": 115.8614,
+    "wikidataId": "Q3183",
+    "translations": {
+      "en": "Perth",
+      "es": "Perth",
+      "fr": "Perth",
+      "it": "Perth",
+      "ja": "パース",
+      "pt": "Perth",
+      "th": "เพิร์ธ",
+      "zh": "珀斯"
+    }
+  },
+  {
+    "nameKey": "portAugusta",
+    "countryCode": "AU",
+    "latitude": -32.5553,
+    "longitude": 137.71362,
+    "wikidataId": "Q606288",
+    "translations": {
+      "en": "Port Augusta",
+      "es": "Puerto Augusta",
+      "fr": "Port Augusta",
+      "it": "Port Augusta",
+      "ja": "ポートオーガスタ",
+      "pt": "Port Augusta",
+      "th": "พอร์ตออกัสตา",
+      "zh": "奥古斯塔港"
+    }
+  },
+  {
+    "nameKey": "portHedland",
+    "countryCode": "AU",
+    "latitude": -20.79258,
+    "longitude": 118.63264,
+    "wikidataId": "Q550465",
+    "translations": {
+      "en": "Port Hedland",
+      "es": "Puerto Hedland",
+      "fr": "Port Hedland",
+      "it": "Port Hedland",
+      "ja": "ポートヘッドランド",
+      "pt": "Port Hedland",
+      "th": "พอร์ตเฮดแลนด์",
+      "zh": "黑德兰港"
+    }
+  },
+  {
+    "nameKey": "portLincoln",
+    "countryCode": "AU",
+    "latitude": -34.72854,
+    "longitude": 135.85748,
+    "wikidataId": "Q606268",
+    "translations": {
+      "en": "Port Lincoln",
+      "es": "Puerto Lincoln",
+      "fr": "Port Lincoln",
+      "it": "Port Lincoln",
+      "ja": "ポートリンカーン",
+      "pt": "Port Lincoln",
+      "th": "พอร์ตลินคอล์น",
+      "zh": "林肯港"
+    }
+  },
+  {
+    "nameKey": "portMacquarie",
+    "countryCode": "AU",
+    "latitude": -31.43084,
+    "longitude": 152.90894,
+    "wikidataId": "Q606153",
+    "translations": {
+      "en": "Port Macquarie",
+      "es": "Puerto Macquarie",
+      "fr": "Port Macquarie",
+      "it": "Port Macquarie",
+      "ja": "ポートマッコーリー",
+      "pt": "Port Macquarie",
+      "th": "พอร์ตแมคควอรี",
+      "zh": "麦觉理港"
+    }
+  },
+  {
+    "nameKey": "portPirie",
+    "countryCode": "AU",
+    "latitude": -33.19176,
+    "longitude": 138.01746,
+    "wikidataId": "Q14966",
+    "translations": {
+      "en": "Port Pirie",
+      "es": "Puerto Pirie",
+      "fr": "Port Pirie",
+      "it": "Port Pirie",
+      "ja": "ポートピリー",
+      "pt": "Port Pirie",
+      "th": "พอร์ตพิรี",
+      "zh": "皮里港"
+    }
+  },
+  {
+    "nameKey": "queanbeyan",
+    "countryCode": "AU",
+    "latitude": -35.35493,
+    "longitude": 149.232,
+    "wikidataId": "Q606385",
+    "translations": {
+      "en": "Queanbeyan",
+      "es": "Queanbeyan",
+      "fr": "Queanbeyan",
+      "it": "Queanbeyan",
+      "ja": "クィーンビアン",
+      "pt": "Queanbeyan",
+      "th": "ควีนบียัน",
+      "zh": "昆比恩"
+    }
+  },
+  {
+    "nameKey": "redcliffe",
+    "countryCode": "AU",
+    "latitude": -27.2258,
+    "longitude": 153.1063,
+    "wikidataId": "Q1026184",
+    "translations": {
+      "en": "Redcliffe",
+      "es": "Redcliffe",
+      "fr": "Redcliffe",
+      "it": "Redcliffe",
+      "ja": "レッドクリフ",
+      "pt": "Redcliffe",
+      "th": "เรดคลิฟฟ์",
+      "zh": "雷德克利夫"
+    }
+  },
+  {
+    "nameKey": "rockhampton",
+    "countryCode": "AU",
+    "latitude": -23.38032,
+    "longitude": 150.50595,
+    "wikidataId": "Q606162",
+    "translations": {
+      "en": "Rockhampton",
+      "es": "Rockhampton",
+      "fr": "Rockhampton",
+      "it": "Rockhampton",
+      "ja": "ロックハンプトン",
+      "pt": "Rockhampton",
+      "th": "ร็อกแฮมพ์ตัน",
+      "zh": "罗克汉普顿"
+    }
+  },
+  {
+    "nameKey": "shepparton",
+    "countryCode": "AU",
+    "latitude": -36.38047,
+    "longitude": 145.39867,
+    "wikidataId": "Q707030",
+    "translations": {
+      "en": "Shepparton",
+      "es": "Shepparton",
+      "fr": "Shepparton",
+      "it": "Shepparton",
+      "ja": "シェパートン",
+      "pt": "Shepparton",
+      "th": "เชพพาร์ตัน",
+      "zh": "谢珀顿"
+    }
+  },
+  {
+    "nameKey": "swanHill",
+    "countryCode": "AU",
+    "latitude": -35.10061,
+    "longitude": 143.1681,
+    "wikidataId": "Q2305836",
+    "translations": {
+      "en": "Swan Hill",
+      "es": "Swan Hill",
+      "fr": "Swan Hill",
+      "it": "Swan Hill",
+      "ja": "スワンヒル",
+      "pt": "Swan Hill",
+      "th": "สวอนฮิลล์",
+      "zh": "斯旺希尔"
+    }
+  },
+  {
+    "nameKey": "sydney",
+    "countryCode": "AU",
+    "latitude": -33.86785,
+    "longitude": 151.20732,
+    "wikidataId": "Q3130",
+    "translations": {
+      "en": "Sydney",
+      "es": "Sídney",
+      "fr": "Sydney",
+      "it": "Sydney",
+      "ja": "シドニー",
+      "pt": "Sydney",
+      "th": "ซิดนีย์",
+      "zh": "悉尼"
+    }
+  },
+  {
+    "nameKey": "sunshineCoast",
+    "countryCode": "AU",
+    "latitude": -26.56098,
+    "longitude": 152.85113,
+    "wikidataId": "Q828357",
+    "translations": {
+      "en": "Sunshine Coast",
+      "es": "Sunshine Coast",
+      "fr": "Sunshine Coast",
+      "it": "Sunshine Coast",
+      "ja": "サンシャインコースト",
+      "pt": "Sunshine Coast",
+      "th": "ซันไชน์โคสต์",
+      "zh": "阳光海岸"
+    }
+  },
+  {
+    "nameKey": "tamworth",
+    "countryCode": "AU",
+    "latitude": -31.09048,
+    "longitude": 150.92905,
+    "wikidataId": "Q1434796",
+    "translations": {
+      "en": "Tamworth",
+      "es": "Tamworth",
+      "fr": "Tamworth",
+      "it": "Tamworth",
+      "ja": "タムワース",
+      "pt": "Tamworth",
+      "th": "แทมเวิร์ธ",
+      "zh": "塔姆沃思"
+    }
+  },
+  {
+    "nameKey": "tasmania",
+    "countryCode": "AU",
+    "latitude": -42.02111,
+    "longitude": 146.5755,
+    "wikidataId": "Q34366",
+    "translations": {
+      "en": "Tasmania",
+      "es": "Tasmania",
+      "fr": "Tasmania",
+      "it": "Tasmania",
+      "ja": "タスマニア",
+      "pt": "Tasmania",
+      "th": "แทสเมเนีย",
+      "zh": "塔斯马尼亚"
+    }
+  },
+  {
+    "nameKey": "toowoomba",
+    "countryCode": "AU",
+    "latitude": -27.47958,
+    "longitude": 151.47705,
+    "wikidataId": "Q478302",
+    "translations": {
+      "en": "Toowoomba",
+      "es": "Toowoomba",
+      "fr": "Toowoomba",
+      "it": "Toowoomba",
+      "ja": "トゥーンバ",
+      "pt": "Toowoomba",
+      "th": "ทูวูมบา",
+      "zh": "图文巴"
+    }
+  },
+  {
+    "nameKey": "townsville",
+    "countryCode": "AU",
+    "latitude": -19.26639,
+    "longitude": 146.80569,
+    "wikidataId": "Q190021",
+    "translations": {
+      "en": "Townsville",
+      "es": "Townsville",
+      "fr": "Townsville",
+      "it": "Townsville",
+      "ja": "タウンズビル",
+      "pt": "Townsville",
+      "th": "ทาวน์สวิลล์",
+      "zh": "汤斯维尔"
+    }
+  },
+  {
+    "nameKey": "tweedHeads",
+    "countryCode": "AU",
+    "latitude": -28.17671,
+    "longitude": 153.5452,
+    "wikidataId": "Q606344",
+    "translations": {
+      "en": "Tweed Heads",
+      "es": "Tweed Heads",
+      "fr": "Tweed Heads",
+      "it": "Tweed Heads",
+      "ja": "トゥイードヘッズ",
+      "pt": "Tweed Heads",
+      "th": "ทวีดเฮดส์",
+      "zh": "特威德岬"
+    }
+  },
+  {
+    "nameKey": "victorHarbor",
+    "countryCode": "AU",
+    "latitude": -35.51605,
+    "longitude": 138.5461,
+    "wikidataId": "Q1015796",
+    "translations": {
+      "en": "Victor Harbor",
+      "es": "Puerto Víctor",
+      "fr": "Victor Harbor",
+      "it": "Victor Harbor",
+      "ja": "ビクターハーバー",
+      "pt": "Victor Harbor",
+      "th": "วิคเตอร์ฮาร์เบอร์",
+      "zh": "维克多港"
+    }
+  },
+  {
+    "nameKey": "waggaWagga",
+    "countryCode": "AU",
+    "latitude": -35.18587,
+    "longitude": 147.35509,
+    "wikidataId": "Q459600",
+    "translations": {
+      "en": "Wagga Wagga",
+      "es": "Wagga Wagga",
+      "fr": "Wagga Wagga",
+      "it": "Wagga Wagga",
+      "ja": "ワガワガ",
+      "pt": "Wagga Wagga",
+      "th": "วากกาวากกา",
+      "zh": "沃加沃加"
+    }
+  },
+  {
+    "nameKey": "wangaratta",
+    "countryCode": "AU",
+    "latitude": -36.61599,
+    "longitude": 146.42839,
+    "wikidataId": "Q1024728",
+    "translations": {
+      "en": "Wangaratta",
+      "es": "Wangaratta",
+      "fr": "Wangaratta",
+      "it": "Wangaratta",
+      "ja": "ワンガラッタ",
+      "pt": "Wangaratta",
+      "th": "วังกาแรตตา",
+      "zh": "旺加拉塔"
+    }
+  },
+  {
+    "nameKey": "warrnambool",
+    "countryCode": "AU",
+    "latitude": -38.38176,
+    "longitude": 142.48799,
+    "wikidataId": "Q705867",
+    "translations": {
+      "en": "Warrnambool",
+      "es": "Warrnambool",
+      "fr": "Warrnambool",
+      "it": "Warrnambool",
+      "ja": "ウォーナンブール",
+      "pt": "Warrnambool",
+      "th": "วอร์แนมบูล",
+      "zh": "瓦南布尔"
+    }
+  },
+  {
+    "nameKey": "whyalla",
+    "countryCode": "AU",
+    "latitude": -33.04569,
+    "longitude": 137.54468,
+    "wikidataId": "Q706029",
+    "translations": {
+      "en": "Whyalla",
+      "es": "Whyalla",
+      "fr": "Whyalla",
+      "it": "Whyalla",
+      "ja": "ワイアラ",
+      "pt": "Whyalla",
+      "th": "ไวอัลลา",
+      "zh": "怀阿拉"
+    }
+  },
+  {
+    "nameKey": "wodonga",
+    "countryCode": "AU",
+    "latitude": -36.14469,
+    "longitude": 146.88818,
+    "wikidataId": "Q606307",
+    "translations": {
+      "en": "Wodonga",
+      "es": "Wodonga",
+      "fr": "Wodonga",
+      "it": "Wodonga",
+      "ja": "ウォドンガ",
+      "pt": "Wodonga",
+      "th": "โวดองกา",
+      "zh": "沃东加"
+    }
+  },
+  {
+    "nameKey": "wollongong",
+    "countryCode": "AU",
+    "latitude": -34.424,
+    "longitude": 150.89345,
+    "wikidataId": "Q187861",
+    "translations": {
+      "en": "Wollongong",
+      "es": "Wollongong",
+      "fr": "Wollongong",
+      "it": "Wollongong",
+      "ja": "ウロンゴン",
+      "pt": "Wollongong",
+      "th": "วูลลองกอง",
+      "zh": "卧龙岗"
+    }
+  },
+  {
+    "nameKey": "wyong",
+    "countryCode": "AU",
+    "latitude": -33.28254,
+    "longitude": 151.42327,
+    "wikidataId": "Q969447",
+    "translations": {
+      "en": "Wyong",
+      "es": "Wyong",
+      "fr": "Wyong",
+      "it": "Wyong",
+      "ja": "ワイオング",
+      "pt": "Wyong",
+      "th": "ไวออง",
+      "zh": "怀昂"
+    }
+  }
+]

@@ -1,0 +1,3362 @@
+[
+  {
+    "flag": "🇦🇫",
+    "code": "AF",
+    "dialCode": "+93",
+    "nameKey": "afghanistan",
+    "translations": {
+      "en": "Afghanistan",
+      "es": "Afganistán",
+      "fr": "Afghanistan",
+      "it": "Afghanistan",
+      "ja": "アフガニスタン",
+      "pt": "Afeganistão",
+      "th": "อัฟกานิสถาน",
+      "zh": "阿富汗"
+    }
+  },
+  {
+    "flag": "🇦🇱",
+    "code": "AL",
+    "dialCode": "+355",
+    "nameKey": "albania",
+    "translations": {
+      "en": "Albania",
+      "es": "Albania",
+      "fr": "Albanie",
+      "it": "Albania",
+      "ja": "アルバニア",
+      "pt": "Albânia",
+      "th": "แอลเบเนีย",
+      "zh": "阿尔巴尼亚"
+    }
+  },
+  {
+    "flag": "🇩🇿",
+    "code": "DZ",
+    "dialCode": "+213",
+    "nameKey": "algeria",
+    "translations": {
+      "en": "Algeria",
+      "es": "Argelia",
+      "fr": "Algérie",
+      "it": "Algeria",
+      "ja": "アルジェリア",
+      "pt": "Argélia",
+      "th": "แอลจีเรีย",
+      "zh": "阿尔及利亚"
+    }
+  },
+  {
+    "flag": "🇦🇩",
+    "code": "AD",
+    "dialCode": "+376",
+    "nameKey": "andorra",
+    "translations": {
+      "en": "Andorra",
+      "es": "Andorra",
+      "fr": "Andorre",
+      "it": "Andorra",
+      "ja": "アンドラ",
+      "pt": "Andorra",
+      "th": "อันดอร์รา",
+      "zh": "安道尔"
+    }
+  },
+  {
+    "flag": "🇦🇴",
+    "code": "AO",
+    "dialCode": "+244",
+    "nameKey": "angola",
+    "translations": {
+      "en": "Angola",
+      "es": "Angola",
+      "fr": "Angola",
+      "it": "L'Angola",
+      "ja": "アンゴラ",
+      "pt": "Angola",
+      "th": "แองโกลา",
+      "zh": "安哥拉"
+    }
+  },
+  {
+    "flag": "🇦🇬",
+    "code": "AG",
+    "dialCode": "+1268",
+    "nameKey": "antiguaAndBarbuda",
+    "translations": {
+      "en": "Antigua and Barbuda",
+      "es": "Antigua y Barbuda",
+      "fr": "Antigua-et-Barbuda",
+      "it": "Antigua e Barbuda",
+      "ja": "アンティグアバーブーダ",
+      "pt": "Antígua e Barbuda",
+      "th": "แอนติกาและบาร์บูดา",
+      "zh": "安提瓜和巴布达"
+    }
+  },
+  {
+    "flag": "🇦🇷",
+    "code": "AR",
+    "dialCode": "+54",
+    "nameKey": "argentina",
+    "translations": {
+      "en": "Argentina",
+      "es": "Argentina",
+      "fr": "Argentine",
+      "it": "Argentina",
+      "ja": "アルゼンチン",
+      "pt": "Argentina",
+      "th": "อาร์เจนตินา",
+      "zh": "阿根廷"
+    }
+  },
+  {
+    "flag": "🇦🇲",
+    "code": "AM",
+    "dialCode": "+374",
+    "nameKey": "armenia",
+    "translations": {
+      "en": "Armenia",
+      "es": "Armenia",
+      "fr": "Arménie",
+      "it": "Armenia",
+      "ja": "アルメニア",
+      "pt": "Armênia",
+      "th": "อาร์เมเนีย",
+      "zh": "亚美尼亚"
+    }
+  },
+  {
+    "flag": "🇦🇼",
+    "code": "AW",
+    "dialCode": "+297",
+    "nameKey": "aruba",
+    "translations": {
+      "en": "Aruba",
+      "es": "Aruba",
+      "fr": "Aruba",
+      "it": "Aruba",
+      "ja": "アルバ",
+      "pt": "Aruba",
+      "th": "อารูบา",
+      "zh": "阿鲁巴岛"
+    }
+  },
+  {
+    "flag": "🇦🇺",
+    "code": "AU",
+    "dialCode": "+61",
+    "nameKey": "australia",
+    "translations": {
+      "en": "Australia",
+      "es": "Australia",
+      "fr": "Australie",
+      "it": "Australia",
+      "ja": "オーストラリア",
+      "pt": "Austrália",
+      "th": "ออสเตรเลีย",
+      "zh": "澳大利亚"
+    }
+  },
+  {
+    "flag": "🇦🇹",
+    "code": "AT",
+    "dialCode": "+43",
+    "nameKey": "austria",
+    "translations": {
+      "en": "Austria",
+      "es": "Austria",
+      "fr": "Autriche",
+      "it": "Austria",
+      "ja": "オーストリア",
+      "pt": "Áustria",
+      "th": "ออสเตรีย",
+      "zh": "奥地利"
+    }
+  },
+  {
+    "flag": "🇦🇿",
+    "code": "AZ",
+    "dialCode": "+994",
+    "nameKey": "azerbaijan",
+    "translations": {
+      "en": "Azerbaijan",
+      "es": "Azerbaiyán",
+      "fr": "Azerbaïdjan",
+      "it": "Azerbaigian",
+      "ja": "アゼルバイジャン",
+      "pt": "Azerbaijão",
+      "th": "อาเซอร์ไบจาน",
+      "zh": "阿塞拜疆"
+    }
+  },
+  {
+    "flag": "🇧🇸",
+    "code": "BS",
+    "dialCode": "+1242",
+    "nameKey": "bahamas",
+    "translations": {
+      "en": "Bahamas",
+      "es": "bahamas",
+      "fr": "Bahamas",
+      "it": "Bahamas",
+      "ja": "バハマ",
+      "pt": "Bahamas",
+      "th": "บาฮามาส",
+      "zh": "巴哈马"
+    }
+  },
+  {
+    "flag": "🇧🇭",
+    "code": "BH",
+    "dialCode": "+973",
+    "nameKey": "bahrain",
+    "translations": {
+      "en": "Bahrain",
+      "es": "Bahréin",
+      "fr": "Bahreïn",
+      "it": "Bahrein",
+      "ja": "バーレーン",
+      "pt": "Bahrein",
+      "th": "บาห์เรน",
+      "zh": "巴林"
+    }
+  },
+  {
+    "flag": "🇧🇩",
+    "code": "BD",
+    "dialCode": "+880",
+    "nameKey": "bangladesh",
+    "translations": {
+      "en": "Bangladesh",
+      "es": "Bangladesh",
+      "fr": "Bangladesh",
+      "it": "Bangladesh",
+      "ja": "バングラデシュ",
+      "pt": "Bangladesh",
+      "th": "บังคลาเทศ",
+      "zh": "孟加拉国"
+    }
+  },
+  {
+    "flag": "🇧🇧",
+    "code": "BB",
+    "dialCode": "+1246",
+    "nameKey": "barbados",
+    "translations": {
+      "en": "Barbados",
+      "es": "Barbados",
+      "fr": "Barbade",
+      "it": "Barbados",
+      "ja": "バルバドス",
+      "pt": "Barbados",
+      "th": "บาร์เบโดส",
+      "zh": "巴巴多斯"
+    }
+  },
+  {
+    "flag": "🇧🇾",
+    "code": "BY",
+    "dialCode": "+375",
+    "nameKey": "belarus",
+    "translations": {
+      "en": "Belarus",
+      "es": "Bielorrusia",
+      "fr": "Biélorussie",
+      "it": "Bielorussia",
+      "ja": "ベラルーシ",
+      "pt": "Bielorrússia",
+      "th": "เบลารุส",
+      "zh": "白俄罗斯"
+    }
+  },
+  {
+    "flag": "🇧🇪",
+    "code": "BE",
+    "dialCode": "+32",
+    "nameKey": "belgium",
+    "translations": {
+      "en": "Belgium",
+      "es": "Bélgica",
+      "fr": "Belgique",
+      "it": "Belgio",
+      "ja": "ベルギー",
+      "pt": "Bélgica",
+      "th": "เบลเยียม",
+      "zh": "比利时"
+    }
+  },
+  {
+    "flag": "🇧🇿",
+    "code": "BZ",
+    "dialCode": "+501",
+    "nameKey": "belize",
+    "translations": {
+      "en": "Belize",
+      "es": "Belice",
+      "fr": "Bélize",
+      "it": "Belize",
+      "ja": "ベリーズ",
+      "pt": "Belize",
+      "th": "เบลีซ",
+      "zh": "伯利兹"
+    }
+  },
+  {
+    "flag": "🇧🇯",
+    "code": "BJ",
+    "dialCode": "+229",
+    "nameKey": "benin",
+    "translations": {
+      "en": "Benin",
+      "es": "Benín",
+      "fr": "Bénin",
+      "it": "Benin",
+      "ja": "ベナン",
+      "pt": "Benim",
+      "th": "เบนิน",
+      "zh": "贝宁"
+    }
+  },
+  {
+    "flag": "🇧🇲",
+    "code": "BM",
+    "dialCode": "+1441",
+    "nameKey": "bermuda",
+    "translations": {
+      "en": "Bermuda",
+      "es": "islas Bermudas",
+      "fr": "Bermudes",
+      "it": "Bermuda",
+      "ja": "バミューダ",
+      "pt": "Bermudas",
+      "th": "เบอร์มิวดา",
+      "zh": "百慕大"
+    }
+  },
+  {
+    "flag": "🇧🇹",
+    "code": "BT",
+    "dialCode": "+975",
+    "nameKey": "bhutan",
+    "translations": {
+      "en": "Bhutan",
+      "es": "Bután",
+      "fr": "Bhoutan",
+      "it": "Bhutan",
+      "ja": "ブータン",
+      "pt": "Butão",
+      "th": "ภูฏาน",
+      "zh": "不丹"
+    }
+  },
+  {
+    "flag": "🇧🇴",
+    "code": "BO",
+    "dialCode": "+591",
+    "nameKey": "bolivia",
+    "translations": {
+      "en": "Bolivia",
+      "es": "bolivia",
+      "fr": "Bolivie",
+      "it": "Bolivia",
+      "ja": "ボリビア",
+      "pt": "Bolívia",
+      "th": "โบลิเวีย",
+      "zh": "玻利维亚"
+    }
+  },
+  {
+    "flag": "🇧🇦",
+    "code": "BA",
+    "dialCode": "+387",
+    "nameKey": "bosniaAndHerzegovina",
+    "translations": {
+      "en": "Bosnia and Herzegovina",
+      "es": "Bosnia y Herzegovina",
+      "fr": "Bosnie-Herzégovine",
+      "it": "Bosnia ed Erzegovina",
+      "ja": "ボスニア・ヘルツェゴビナ",
+      "pt": "Bósnia e Herzegovina",
+      "th": "บอสเนียและเฮอร์เซโกวีนา",
+      "zh": "波斯尼亚和黑塞哥维那"
+    }
+  },
+  {
+    "flag": "🇧🇼",
+    "code": "BW",
+    "dialCode": "+267",
+    "nameKey": "botswana",
+    "translations": {
+      "en": "Botswana",
+      "es": "Botsuana",
+      "fr": "Botswana",
+      "it": "Botswana",
+      "ja": "ボツワナ",
+      "pt": "Botsuana",
+      "th": "บอตสวานา",
+      "zh": "博茨瓦纳"
+    }
+  },
+  {
+    "flag": "🇧🇷",
+    "code": "BR",
+    "dialCode": "+55",
+    "nameKey": "brazil",
+    "translations": {
+      "en": "Brazil",
+      "es": "Brasil",
+      "fr": "Brésil",
+      "it": "Brasile",
+      "ja": "ブラジル",
+      "pt": "Brasil",
+      "th": "บราซิล",
+      "zh": "巴西"
+    }
+  },
+  {
+    "flag": "🇧🇳",
+    "code": "BN",
+    "dialCode": "+673",
+    "nameKey": "brunei",
+    "translations": {
+      "en": "Brunei",
+      "es": "Brunéi",
+      "fr": "Brunéi",
+      "it": "Brunei",
+      "ja": "ブルネイ",
+      "pt": "Brunei",
+      "th": "บรูไน",
+      "zh": "文莱"
+    }
+  },
+  {
+    "flag": "🇧🇬",
+    "code": "BG",
+    "dialCode": "+359",
+    "nameKey": "bulgaria",
+    "translations": {
+      "en": "Bulgaria",
+      "es": "Bulgaria",
+      "fr": "Bulgarie",
+      "it": "Bulgaria",
+      "ja": "ブルガリア",
+      "pt": "Bulgária",
+      "th": "บัลแกเรีย",
+      "zh": "保加利亚"
+    }
+  },
+  {
+    "flag": "🇧🇫",
+    "code": "BF",
+    "dialCode": "+226",
+    "nameKey": "burkinaFaso",
+    "translations": {
+      "en": "Burkina Faso",
+      "es": "Burkina Faso",
+      "fr": "Burkina Faso",
+      "it": "Burkina Faso",
+      "ja": "ブルキナファソ",
+      "pt": "Burkina Faso",
+      "th": "บูร์กินาฟาโซ",
+      "zh": "布基纳法索"
+    }
+  },
+  {
+    "flag": "🇧🇮",
+    "code": "BI",
+    "dialCode": "+257",
+    "nameKey": "burundi",
+    "translations": {
+      "en": "Burundi",
+      "es": "Burundi",
+      "fr": "Burundi",
+      "it": "Burundi",
+      "ja": "ブルンジ",
+      "pt": "Burundi",
+      "th": "บุรุนดี",
+      "zh": "布隆迪"
+    }
+  },
+  {
+    "flag": "🇰🇭",
+    "code": "KH",
+    "dialCode": "+855",
+    "nameKey": "cambodia",
+    "translations": {
+      "en": "Cambodia",
+      "es": "Camboya",
+      "fr": "Cambodge",
+      "it": "Cambogia",
+      "ja": "カンボジア",
+      "pt": "Camboja",
+      "th": "กัมพูชา",
+      "zh": "柬埔寨"
+    }
+  },
+  {
+    "flag": "🇨🇲",
+    "code": "CM",
+    "dialCode": "+237",
+    "nameKey": "cameroon",
+    "translations": {
+      "en": "Cameroon",
+      "es": "Camerún",
+      "fr": "Cameroun",
+      "it": "Camerun",
+      "ja": "カメルーン",
+      "pt": "Camarões",
+      "th": "แคเมอรูน",
+      "zh": "喀麦隆"
+    }
+  },
+  {
+    "flag": "🇨🇦",
+    "code": "CA",
+    "dialCode": "+1",
+    "nameKey": "canada",
+    "translations": {
+      "en": "Canada",
+      "es": "Canadá",
+      "fr": "Canada",
+      "it": "Canada",
+      "ja": "カナダ",
+      "pt": "Canadá",
+      "th": "แคนาดา",
+      "zh": "加拿大"
+    }
+  },
+  {
+    "flag": "🇨🇻",
+    "code": "CV",
+    "dialCode": "+238",
+    "nameKey": "capeVerde",
+    "translations": {
+      "en": "Cape Verde",
+      "es": "Cabo Verde",
+      "fr": "Cap-Vert",
+      "it": "Capo Verde",
+      "ja": "カーボベルデ",
+      "pt": "Cabo Verde",
+      "th": "เคปเวิร์ด",
+      "zh": "佛得角"
+    }
+  },
+  {
+    "flag": "🇰🇾",
+    "code": "KY",
+    "dialCode": "+1345",
+    "nameKey": "caymanIslands",
+    "translations": {
+      "en": "Cayman Islands",
+      "es": "Islas Caimán",
+      "fr": "Îles Caïmans",
+      "it": "Isole Cayman",
+      "ja": "ケイマン諸島",
+      "pt": "Ilhas Cayman",
+      "th": "หมู่เกาะเคย์แมน",
+      "zh": "开曼群岛"
+    }
+  },
+  {
+    "flag": "🇨🇫",
+    "code": "CF",
+    "dialCode": "+236",
+    "nameKey": "centralAfricanRepublic",
+    "translations": {
+      "en": "Central African Republic",
+      "es": "República Centroafricana",
+      "fr": "République centrafricaine",
+      "it": "Repubblica Centrafricana",
+      "ja": "中央アフリカ共和国",
+      "pt": "República Centro-Africana",
+      "th": "สาธารณรัฐอัฟริกากลาง",
+      "zh": "中非共和国"
+    }
+  },
+  {
+    "flag": "🇹🇩",
+    "code": "TD",
+    "dialCode": "+235",
+    "nameKey": "chad",
+    "translations": {
+      "en": "Chad",
+      "es": "Chad",
+      "fr": "Tchad",
+      "it": "Chad",
+      "ja": "チャド",
+      "pt": "Chade",
+      "th": "ชาด",
+      "zh": "乍得"
+    }
+  },
+  {
+    "flag": "🇨🇱",
+    "code": "CL",
+    "dialCode": "+56",
+    "nameKey": "chile",
+    "translations": {
+      "en": "Chile",
+      "es": "Chile",
+      "fr": "Chili",
+      "it": "Chile",
+      "ja": "チリ",
+      "pt": "Chile",
+      "th": "ชิลี",
+      "zh": "智利"
+    }
+  },
+  {
+    "flag": "🇨🇳",
+    "code": "CN",
+    "dialCode": "+86",
+    "nameKey": "china",
+    "translations": {
+      "en": "China",
+      "es": "Porcelana",
+      "fr": "Chine",
+      "it": "Cina",
+      "ja": "中国",
+      "pt": "China",
+      "th": "จีน",
+      "zh": "中国"
+    }
+  },
+  {
+    "flag": "🇨🇴",
+    "code": "CO",
+    "dialCode": "+57",
+    "nameKey": "colombia",
+    "translations": {
+      "en": "Colombia",
+      "es": "Colombia",
+      "fr": "Colombie",
+      "it": "Colombia",
+      "ja": "コロンビア",
+      "pt": "Colômbia",
+      "th": "โคลอมเบีย",
+      "zh": "哥伦比亚"
+    }
+  },
+  {
+    "flag": "🇰🇲",
+    "code": "KM",
+    "dialCode": "+269",
+    "nameKey": "comoros",
+    "translations": {
+      "en": "Comoros",
+      "es": "Comoras",
+      "fr": "Comores",
+      "it": "Comore",
+      "ja": "コモロ",
+      "pt": "Comores",
+      "th": "คอโมโรส",
+      "zh": "科摩罗"
+    }
+  },
+  {
+    "flag": "🇨🇬",
+    "code": "CG",
+    "dialCode": "+242",
+    "nameKey": "congo",
+    "translations": {
+      "en": "Congo",
+      "es": "Congo",
+      "fr": "Congo",
+      "it": "Congo",
+      "ja": "コンゴ",
+      "pt": "Congo",
+      "th": "คองโก",
+      "zh": "刚果"
+    }
+  },
+  {
+    "flag": "🇨🇩",
+    "code": "CD",
+    "dialCode": "+243",
+    "nameKey": "congoDemocraticRepublic",
+    "translations": {
+      "en": "Congo (Democratic Republic)",
+      "es": "Congo (República Democrática)",
+      "fr": "Congo (République démocratique)",
+      "it": "Congo (Repubblica Democratica)",
+      "ja": "コンゴ (民主共和国)",
+      "pt": "Congo (República Democrática)",
+      "th": "คองโก (สาธารณรัฐประชาธิปไตย)",
+      "zh": "刚果（民主共和国）"
+    }
+  },
+  {
+    "flag": "🇨🇷",
+    "code": "CR",
+    "dialCode": "+506",
+    "nameKey": "costaRica",
+    "translations": {
+      "en": "Costa Rica",
+      "es": "Costa Rica",
+      "fr": "Costa Rica",
+      "it": "Costa Rica",
+      "ja": "コスタリカ",
+      "pt": "Costa Rica",
+      "th": "คอสตาริกา",
+      "zh": "哥斯达黎加"
+    }
+  },
+  {
+    "flag": "🇭🇷",
+    "code": "HR",
+    "dialCode": "+385",
+    "nameKey": "croatia",
+    "translations": {
+      "en": "Croatia",
+      "es": "Croacia",
+      "fr": "Croatie",
+      "it": "Croazia",
+      "ja": "クロアチア",
+      "pt": "Croácia",
+      "th": "โครเอเชีย",
+      "zh": "克罗地亚"
+    }
+  },
+  {
+    "flag": "🇨🇺",
+    "code": "CU",
+    "dialCode": "+53",
+    "nameKey": "cuba",
+    "translations": {
+      "en": "Cuba",
+      "es": "Cuba",
+      "fr": "Cuba",
+      "it": "Cuba",
+      "ja": "キューバ",
+      "pt": "Cuba",
+      "th": "คิวบา",
+      "zh": "古巴"
+    }
+  },
+  {
+    "flag": "🇨🇼",
+    "code": "CW",
+    "dialCode": "+599",
+    "nameKey": "curacao",
+    "translations": {
+      "en": "Curaçao",
+      "es": "Curazao",
+      "fr": "Curaçao",
+      "it": "Curaçao",
+      "ja": "キュラソー",
+      "pt": "Curaçau",
+      "th": "คูราเซา",
+      "zh": "库拉索岛"
+    }
+  },
+  {
+    "flag": "🇨🇾",
+    "code": "CY",
+    "dialCode": "+357",
+    "nameKey": "cyprus",
+    "translations": {
+      "en": "Cyprus",
+      "es": "Chipre",
+      "fr": "Chypre",
+      "it": "Cipro",
+      "ja": "キプロス",
+      "pt": "Chipre",
+      "th": "ไซปรัส",
+      "zh": "塞浦路斯"
+    }
+  },
+  {
+    "flag": "🇨🇿",
+    "code": "CZ",
+    "dialCode": "+420",
+    "nameKey": "czechRepublic",
+    "translations": {
+      "en": "Czech Republic",
+      "es": "República Checa",
+      "fr": "République tchèque",
+      "it": "Repubblica Ceca",
+      "ja": "チェコ共和国",
+      "pt": "República Tcheca",
+      "th": "สาธารณรัฐเช็ก",
+      "zh": "捷克共和国"
+    }
+  },
+  {
+    "flag": "🇩🇰",
+    "code": "DK",
+    "dialCode": "+45",
+    "nameKey": "denmark",
+    "translations": {
+      "en": "Denmark",
+      "es": "Dinamarca",
+      "fr": "Danemark",
+      "it": "Danimarca",
+      "ja": "デンマーク",
+      "pt": "Dinamarca",
+      "th": "เดนมาร์ก",
+      "zh": "丹麦"
+    }
+  },
+  {
+    "flag": "🇩🇯",
+    "code": "DJ",
+    "dialCode": "+253",
+    "nameKey": "djibouti",
+    "translations": {
+      "en": "Djibouti",
+      "es": "Yibuti",
+      "fr": "Djibouti",
+      "it": "Gibuti",
+      "ja": "ジブチ",
+      "pt": "Djibuti",
+      "th": "จิบูตี",
+      "zh": "吉布提"
+    }
+  },
+  {
+    "flag": "🇩🇲",
+    "code": "DM",
+    "dialCode": "+1767",
+    "nameKey": "dominica",
+    "translations": {
+      "en": "Dominica",
+      "es": "república dominicana",
+      "fr": "Dominique",
+      "it": "Dominica",
+      "ja": "ドミニカ",
+      "pt": "Domínica",
+      "th": "โดมินิกา",
+      "zh": "多米尼加"
+    }
+  },
+  {
+    "flag": "🇩🇴",
+    "code": "DO",
+    "dialCode": "+1",
+    "nameKey": "dominicanRepublic",
+    "translations": {
+      "en": "Dominican Republic",
+      "es": "República Dominicana",
+      "fr": "République dominicaine",
+      "it": "Repubblica Dominicana",
+      "ja": "ドミニカ共和国",
+      "pt": "República Dominicana",
+      "th": "สาธารณรัฐโดมินิกัน",
+      "zh": "多明尼加共和国"
+    }
+  },
+  {
+    "flag": "🇪🇨",
+    "code": "EC",
+    "dialCode": "+593",
+    "nameKey": "ecuador",
+    "translations": {
+      "en": "Ecuador",
+      "es": "Ecuador",
+      "fr": "Équateur",
+      "it": "Ecuador",
+      "ja": "エクアドル",
+      "pt": "Equador",
+      "th": "เอกวาดอร์",
+      "zh": "厄瓜多尔"
+    }
+  },
+  {
+    "flag": "🇪🇬",
+    "code": "EG",
+    "dialCode": "+20",
+    "nameKey": "egypt",
+    "translations": {
+      "en": "Egypt",
+      "es": "Egipto",
+      "fr": "Egypte",
+      "it": "Egitto",
+      "ja": "エジプト",
+      "pt": "Egito",
+      "th": "อียิปต์",
+      "zh": "埃及"
+    }
+  },
+  {
+    "flag": "🇸🇻",
+    "code": "SV",
+    "dialCode": "+503",
+    "nameKey": "elSalvador",
+    "translations": {
+      "en": "El Salvador",
+      "es": "Salvador",
+      "fr": "Salvador",
+      "it": "El Salvador",
+      "ja": "エルサルバドル",
+      "pt": "El Salvador",
+      "th": "เอลซัลวาดอร์",
+      "zh": "萨尔瓦多"
+    }
+  },
+  {
+    "flag": "🇬🇶",
+    "code": "GQ",
+    "dialCode": "+240",
+    "nameKey": "equatorialGuinea",
+    "translations": {
+      "en": "Equatorial Guinea",
+      "es": "Guinea Ecuatorial",
+      "fr": "Guinée équatoriale",
+      "it": "Guinea Equatoriale",
+      "ja": "赤道ギニア",
+      "pt": "Guiné Equatorial",
+      "th": "อิเควทอเรียลกินี",
+      "zh": "赤道几内亚"
+    }
+  },
+  {
+    "flag": "🇪🇷",
+    "code": "ER",
+    "dialCode": "+291",
+    "nameKey": "eritrea",
+    "translations": {
+      "en": "Eritrea",
+      "es": "Eritrea",
+      "fr": "Érythrée",
+      "it": "Eritrea",
+      "ja": "エリトリア",
+      "pt": "Eritreia",
+      "th": "เอริเทรีย",
+      "zh": "厄立特里亚"
+    }
+  },
+  {
+    "flag": "🇪🇪",
+    "code": "EE",
+    "dialCode": "+372",
+    "nameKey": "estonia",
+    "translations": {
+      "en": "Estonia",
+      "es": "Estonia",
+      "fr": "Estonie",
+      "it": "Estonia",
+      "ja": "エストニア",
+      "pt": "Estônia",
+      "th": "เอสโตเนีย",
+      "zh": "爱沙尼亚"
+    }
+  },
+  {
+    "flag": "🇸🇿",
+    "code": "SZ",
+    "dialCode": "+268",
+    "nameKey": "eswatini",
+    "translations": {
+      "en": "Eswatini",
+      "es": "Esuatini",
+      "fr": "Eswatini",
+      "it": "Swaziland",
+      "ja": "エスワティニ",
+      "pt": "Essuatíni",
+      "th": "เอสวาตินี",
+      "zh": "史瓦帝尼"
+    }
+  },
+  {
+    "flag": "🇪🇹",
+    "code": "ET",
+    "dialCode": "+251",
+    "nameKey": "ethiopia",
+    "translations": {
+      "en": "Ethiopia",
+      "es": "Etiopía",
+      "fr": "Ethiopie",
+      "it": "Etiopia",
+      "ja": "エチオピア",
+      "pt": "Etiópia",
+      "th": "เอธิโอเปีย",
+      "zh": "埃塞俄比亚"
+    }
+  },
+  {
+    "flag": "🇫🇴",
+    "code": "FO",
+    "dialCode": "+298",
+    "nameKey": "faroeIslands",
+    "translations": {
+      "en": "Faroe Islands",
+      "es": "Islas Feroe",
+      "fr": "Îles Féroé",
+      "it": "Isole Faroe",
+      "ja": "フェロー諸島",
+      "pt": "Ilhas Faroé",
+      "th": "หมู่เกาะแฟโร",
+      "zh": "法罗群岛"
+    }
+  },
+  {
+    "flag": "🇫🇯",
+    "code": "FJ",
+    "dialCode": "+679",
+    "nameKey": "fiji",
+    "translations": {
+      "en": "Fiji",
+      "es": "Fiyi",
+      "fr": "Fidji",
+      "it": "Figi",
+      "ja": "フィジー",
+      "pt": "Fiji",
+      "th": "ฟิจิ",
+      "zh": "斐济"
+    }
+  },
+  {
+    "flag": "🇫🇮",
+    "code": "FI",
+    "dialCode": "+358",
+    "nameKey": "finland",
+    "translations": {
+      "en": "Finland",
+      "es": "Finlandia",
+      "fr": "Finlande",
+      "it": "Finlandia",
+      "ja": "フィンランド",
+      "pt": "Finlândia",
+      "th": "ฟินแลนด์",
+      "zh": "芬兰"
+    }
+  },
+  {
+    "flag": "🇫🇷",
+    "code": "FR",
+    "dialCode": "+33",
+    "nameKey": "france",
+    "translations": {
+      "en": "France",
+      "es": "Francia",
+      "fr": "France",
+      "it": "Francia",
+      "ja": "フランス",
+      "pt": "França",
+      "th": "ฝรั่งเศส",
+      "zh": "法国"
+    }
+  },
+  {
+    "flag": "🇬🇦",
+    "code": "GA",
+    "dialCode": "+241",
+    "nameKey": "gabon",
+    "translations": {
+      "en": "Gabon",
+      "es": "Gabón",
+      "fr": "Gabon",
+      "it": "Gabon",
+      "ja": "ガボン",
+      "pt": "Gabão",
+      "th": "กาบอง",
+      "zh": "加蓬"
+    }
+  },
+  {
+    "flag": "🇬🇲",
+    "code": "GM",
+    "dialCode": "+220",
+    "nameKey": "gambia",
+    "translations": {
+      "en": "Gambia",
+      "es": "Gambia",
+      "fr": "Gambie",
+      "it": "Gambia",
+      "ja": "ガンビア",
+      "pt": "Gâmbia",
+      "th": "แกมเบีย",
+      "zh": "冈比亚"
+    }
+  },
+  {
+    "flag": "🇬🇪",
+    "code": "GE",
+    "dialCode": "+995",
+    "nameKey": "georgia",
+    "translations": {
+      "en": "Georgia",
+      "es": "Georgia",
+      "fr": "Géorgie",
+      "it": "Georgia",
+      "ja": "ジョージア",
+      "pt": "Geórgia",
+      "th": "จอร์เจีย",
+      "zh": "乔治亚州"
+    }
+  },
+  {
+    "flag": "🇩🇪",
+    "code": "DE",
+    "dialCode": "+49",
+    "nameKey": "germany",
+    "translations": {
+      "en": "Germany",
+      "es": "Alemania",
+      "fr": "Allemagne",
+      "it": "Germania",
+      "ja": "ドイツ",
+      "pt": "Alemanha",
+      "th": "เยอรมนี",
+      "zh": "德国"
+    }
+  },
+  {
+    "flag": "🇬🇭",
+    "code": "GH",
+    "dialCode": "+233",
+    "nameKey": "ghana",
+    "translations": {
+      "en": "Ghana",
+      "es": "Ghana",
+      "fr": "Ghana",
+      "it": "Ghana",
+      "ja": "ガーナ",
+      "pt": "Gana",
+      "th": "กานา",
+      "zh": "加纳"
+    }
+  },
+  {
+    "flag": "🇬🇮",
+    "code": "GI",
+    "dialCode": "+350",
+    "nameKey": "gibraltar",
+    "translations": {
+      "en": "Gibraltar",
+      "es": "Gibraltar",
+      "fr": "Gibraltar",
+      "it": "Gibilterra",
+      "ja": "ジブラルタル",
+      "pt": "Gibraltar",
+      "th": "ยิบรอลตาร์",
+      "zh": "直布罗陀"
+    }
+  },
+  {
+    "flag": "🇬🇷",
+    "code": "GR",
+    "dialCode": "+30",
+    "nameKey": "greece",
+    "translations": {
+      "en": "Greece",
+      "es": "Grecia",
+      "fr": "Grèce",
+      "it": "Grecia",
+      "ja": "ギリシャ",
+      "pt": "Grécia",
+      "th": "กรีซ",
+      "zh": "希腊"
+    }
+  },
+  {
+    "flag": "🇬🇱",
+    "code": "GL",
+    "dialCode": "+299",
+    "nameKey": "greenland",
+    "translations": {
+      "en": "Greenland",
+      "es": "Tierra Verde",
+      "fr": "Groenland",
+      "it": "Groenlandia",
+      "ja": "グリーンランド",
+      "pt": "Groenlândia",
+      "th": "กรีนแลนด์",
+      "zh": "格陵兰"
+    }
+  },
+  {
+    "flag": "🇬🇩",
+    "code": "GD",
+    "dialCode": "+1473",
+    "nameKey": "grenada",
+    "translations": {
+      "en": "Grenada",
+      "es": "Granada",
+      "fr": "Grenade",
+      "it": "Grenada",
+      "ja": "グレナダ",
+      "pt": "Granada",
+      "th": "เกรเนดา",
+      "zh": "格林纳达"
+    }
+  },
+  {
+    "flag": "🇬🇺",
+    "code": "GU",
+    "dialCode": "+1671",
+    "nameKey": "guam",
+    "translations": {
+      "en": "Guam",
+      "es": "Guam",
+      "fr": "Guam",
+      "it": "Guam",
+      "ja": "グアム",
+      "pt": "Guam",
+      "th": "กวม",
+      "zh": "关岛"
+    }
+  },
+  {
+    "flag": "🇬🇹",
+    "code": "GT",
+    "dialCode": "+502",
+    "nameKey": "guatemala",
+    "translations": {
+      "en": "Guatemala",
+      "es": "Guatemala",
+      "fr": "Guatemala",
+      "it": "Guatemala",
+      "ja": "グアテマラ",
+      "pt": "Guatemala",
+      "th": "กัวเตมาลา",
+      "zh": "危地马拉"
+    }
+  },
+  {
+    "flag": "🇬🇳",
+    "code": "GN",
+    "dialCode": "+224",
+    "nameKey": "guinea",
+    "translations": {
+      "en": "Guinea",
+      "es": "Guinea",
+      "fr": "Guinée",
+      "it": "Guinea",
+      "ja": "ギニア",
+      "pt": "Guiné",
+      "th": "กินี",
+      "zh": "几内亚"
+    }
+  },
+  {
+    "flag": "🇬🇼",
+    "code": "GW",
+    "dialCode": "+245",
+    "nameKey": "guineaBissau",
+    "translations": {
+      "en": "Guinea-Bissau",
+      "es": "Guinea-Bisáu",
+      "fr": "Guinée-Bissau",
+      "it": "Guinea-Bissau",
+      "ja": "ギニアビサウ",
+      "pt": "Guiné-Bissau",
+      "th": "กินี-บิสเซา",
+      "zh": "几内亚比绍"
+    }
+  },
+  {
+    "flag": "🇬🇾",
+    "code": "GY",
+    "dialCode": "+592",
+    "nameKey": "guyana",
+    "translations": {
+      "en": "Guyana",
+      "es": "Guayana",
+      "fr": "Guyane",
+      "it": "Guyana",
+      "ja": "ガイアナ",
+      "pt": "Guiana",
+      "th": "กายอานา",
+      "zh": "圭亚那"
+    }
+  },
+  {
+    "flag": "🇭🇹",
+    "code": "HT",
+    "dialCode": "+509",
+    "nameKey": "haiti",
+    "translations": {
+      "en": "Haiti",
+      "es": "Haití",
+      "fr": "Haïti",
+      "it": "Haiti",
+      "ja": "ハイチ",
+      "pt": "Haiti",
+      "th": "เฮติ",
+      "zh": "海地"
+    }
+  },
+  {
+    "flag": "🇭🇳",
+    "code": "HN",
+    "dialCode": "+504",
+    "nameKey": "honduras",
+    "translations": {
+      "en": "Honduras",
+      "es": "Honduras",
+      "fr": "Honduras",
+      "it": "Honduras",
+      "ja": "ホンジュラス",
+      "pt": "Honduras",
+      "th": "ฮอนดูรัส",
+      "zh": "洪都拉斯"
+    }
+  },
+  {
+    "flag": "🇭🇰",
+    "code": "HK",
+    "dialCode": "+852",
+    "nameKey": "hongKong",
+    "translations": {
+      "en": "Hong Kong",
+      "es": "Hong Kong",
+      "fr": "Hong Kong",
+      "it": "Hong Kong",
+      "ja": "香港",
+      "pt": "Hong Kong",
+      "th": "ฮ่องกง",
+      "zh": "香港"
+    }
+  },
+  {
+    "flag": "🇭🇺",
+    "code": "HU",
+    "dialCode": "+36",
+    "nameKey": "hungary",
+    "translations": {
+      "en": "Hungary",
+      "es": "Hungría",
+      "fr": "Hongrie",
+      "it": "Ungheria",
+      "ja": "ハンガリー",
+      "pt": "Hungria",
+      "th": "ฮังการี",
+      "zh": "匈牙利"
+    }
+  },
+  {
+    "flag": "🇮🇸",
+    "code": "IS",
+    "dialCode": "+354",
+    "nameKey": "iceland",
+    "translations": {
+      "en": "Iceland",
+      "es": "Islandia",
+      "fr": "Islande",
+      "it": "Islanda",
+      "ja": "アイスランド",
+      "pt": "Islândia",
+      "th": "ไอซ์แลนด์",
+      "zh": "冰岛"
+    }
+  },
+  {
+    "flag": "🇮🇳",
+    "code": "IN",
+    "dialCode": "+91",
+    "nameKey": "india",
+    "translations": {
+      "en": "India",
+      "es": "India",
+      "fr": "Inde",
+      "it": "India",
+      "ja": "インド",
+      "pt": "Índia",
+      "th": "อินเดีย",
+      "zh": "印度"
+    }
+  },
+  {
+    "flag": "🇮🇩",
+    "code": "ID",
+    "dialCode": "+62",
+    "nameKey": "indonesia",
+    "translations": {
+      "en": "Indonesia",
+      "es": "Indonesia",
+      "fr": "Indonésie",
+      "it": "Indonesia",
+      "ja": "インドネシア",
+      "pt": "Indonésia",
+      "th": "อินโดนีเซีย",
+      "zh": "印度尼西亚"
+    }
+  },
+  {
+    "flag": "🇮🇷",
+    "code": "IR",
+    "dialCode": "+98",
+    "nameKey": "iran",
+    "translations": {
+      "en": "Iran",
+      "es": "Irán",
+      "fr": "L'Iran",
+      "it": "Iran",
+      "ja": "イラン",
+      "pt": "Irã",
+      "th": "อิหร่าน",
+      "zh": "伊朗"
+    }
+  },
+  {
+    "flag": "🇮🇶",
+    "code": "IQ",
+    "dialCode": "+964",
+    "nameKey": "iraq",
+    "translations": {
+      "en": "Iraq",
+      "es": "Irak",
+      "fr": "Irak",
+      "it": "Iraq",
+      "ja": "イラク",
+      "pt": "Iraque",
+      "th": "อิรัก",
+      "zh": "伊拉克"
+    }
+  },
+  {
+    "flag": "🇮🇪",
+    "code": "IE",
+    "dialCode": "+353",
+    "nameKey": "ireland",
+    "translations": {
+      "en": "Ireland",
+      "es": "Irlanda",
+      "fr": "Irlande",
+      "it": "Irlanda",
+      "ja": "アイルランド",
+      "pt": "Irlanda",
+      "th": "ไอร์แลนด์",
+      "zh": "爱尔兰"
+    }
+  },
+  {
+    "flag": "🇮🇱",
+    "code": "IL",
+    "dialCode": "+972",
+    "nameKey": "israel",
+    "translations": {
+      "en": "Israel",
+      "es": "Israel",
+      "fr": "Israël",
+      "it": "Israele",
+      "ja": "イスラエル",
+      "pt": "Israel",
+      "th": "อิสราเอล",
+      "zh": "以色列"
+    }
+  },
+  {
+    "flag": "🇮🇹",
+    "code": "IT",
+    "dialCode": "+39",
+    "nameKey": "italy",
+    "translations": {
+      "en": "Italy",
+      "es": "Italia",
+      "fr": "Italie",
+      "it": "Italia",
+      "ja": "イタリア",
+      "pt": "Itália",
+      "th": "อิตาลี",
+      "zh": "意大利"
+    }
+  },
+  {
+    "flag": "🇨🇮",
+    "code": "CI",
+    "dialCode": "+225",
+    "nameKey": "ivoryCoast",
+    "translations": {
+      "en": "Ivory Coast",
+      "es": "Costa de Marfil",
+      "fr": "Côte d'Ivoire",
+      "it": "Costa d'Avorio",
+      "ja": "コートジボワール",
+      "pt": "Costa do Marfim",
+      "th": "ชายฝั่งงาช้าง",
+      "zh": "科特迪瓦"
+    }
+  },
+  {
+    "flag": "🇯🇲",
+    "code": "JM",
+    "dialCode": "+1876",
+    "nameKey": "jamaica",
+    "translations": {
+      "en": "Jamaica",
+      "es": "Jamaica",
+      "fr": "Jamaïque",
+      "it": "Giamaica",
+      "ja": "ジャマイカ",
+      "pt": "Jamaica",
+      "th": "จาเมกา",
+      "zh": "牙买加"
+    }
+  },
+  {
+    "flag": "🇯🇵",
+    "code": "JP",
+    "dialCode": "+81",
+    "nameKey": "japan",
+    "translations": {
+      "en": "Japan",
+      "es": "Japón",
+      "fr": "Japon",
+      "it": "Giappone",
+      "ja": "日本",
+      "pt": "Japão",
+      "th": "ญี่ปุ่น",
+      "zh": "日本"
+    }
+  },
+  {
+    "flag": "🇯🇴",
+    "code": "JO",
+    "dialCode": "+962",
+    "nameKey": "jordan",
+    "translations": {
+      "en": "Jordan",
+      "es": "Jordán",
+      "fr": "Jordanie",
+      "it": "Giordania",
+      "ja": "ヨルダン",
+      "pt": "Jordânia",
+      "th": "จอร์แดน",
+      "zh": "约旦"
+    }
+  },
+  {
+    "flag": "🇰🇿",
+    "code": "KZ",
+    "dialCode": "+7",
+    "nameKey": "kazakhstan",
+    "translations": {
+      "en": "Kazakhstan",
+      "es": "Kazajstán",
+      "fr": "Kazakhstan",
+      "it": "Kazakistan",
+      "ja": "カザフスタン",
+      "pt": "Cazaquistão",
+      "th": "คาซัคสถาน",
+      "zh": "哈萨克斯坦"
+    }
+  },
+  {
+    "flag": "🇰🇪",
+    "code": "KE",
+    "dialCode": "+254",
+    "nameKey": "kenya",
+    "translations": {
+      "en": "Kenya",
+      "es": "Kenia",
+      "fr": "Kenya",
+      "it": "Kenia",
+      "ja": "ケニア",
+      "pt": "Quênia",
+      "th": "เคนยา",
+      "zh": "肯尼亚"
+    }
+  },
+  {
+    "flag": "🇰🇮",
+    "code": "KI",
+    "dialCode": "+686",
+    "nameKey": "kiribati",
+    "translations": {
+      "en": "Kiribati",
+      "es": "Kiribati",
+      "fr": "Kiribati",
+      "it": "Kiribati",
+      "ja": "キリバス",
+      "pt": "Quiribáti",
+      "th": "คิริบาส",
+      "zh": "基里巴斯"
+    }
+  },
+  {
+    "flag": "🇽🇰",
+    "code": "XK",
+    "dialCode": "+383",
+    "nameKey": "kosovo",
+    "translations": {
+      "en": "Kosovo",
+      "es": "Kosovo",
+      "fr": "Kosovo",
+      "it": "Kosovo",
+      "ja": "コソボ",
+      "pt": "Kosovo",
+      "th": "โคโซโว",
+      "zh": "科索沃"
+    }
+  },
+  {
+    "flag": "🇰🇼",
+    "code": "KW",
+    "dialCode": "+965",
+    "nameKey": "kuwait",
+    "translations": {
+      "en": "Kuwait",
+      "es": "Kuwait",
+      "fr": "Koweit",
+      "it": "Kuwait",
+      "ja": "クウェート",
+      "pt": "Kuwait",
+      "th": "คูเวต",
+      "zh": "科威特"
+    }
+  },
+  {
+    "flag": "🇰🇬",
+    "code": "KG",
+    "dialCode": "+996",
+    "nameKey": "kyrgyzstan",
+    "translations": {
+      "en": "Kyrgyzstan",
+      "es": "Kirguistán",
+      "fr": "Kirghizistan",
+      "it": "Kirghizistan",
+      "ja": "キルギス",
+      "pt": "Quirguistão",
+      "th": "คีร์กีซสถาน",
+      "zh": "吉尔吉斯斯坦"
+    }
+  },
+  {
+    "flag": "🇱🇦",
+    "code": "LA",
+    "dialCode": "+856",
+    "nameKey": "laos",
+    "translations": {
+      "en": "Laos",
+      "es": "Laos",
+      "fr": "Laos",
+      "it": "Laos",
+      "ja": "ラオス",
+      "pt": "Laos",
+      "th": "ลาว",
+      "zh": "老挝"
+    }
+  },
+  {
+    "flag": "🇱🇻",
+    "code": "LV",
+    "dialCode": "+371",
+    "nameKey": "latvia",
+    "translations": {
+      "en": "Latvia",
+      "es": "Letonia",
+      "fr": "Lettonie",
+      "it": "Lettonia",
+      "ja": "ラトビア",
+      "pt": "Letónia",
+      "th": "ลัตเวีย",
+      "zh": "拉脱维亚"
+    }
+  },
+  {
+    "flag": "🇱🇧",
+    "code": "LB",
+    "dialCode": "+961",
+    "nameKey": "lebanon",
+    "translations": {
+      "en": "Lebanon",
+      "es": "Líbano",
+      "fr": "Liban",
+      "it": "Libano",
+      "ja": "レバノン",
+      "pt": "Líbano",
+      "th": "เลบานอน",
+      "zh": "黎巴嫩"
+    }
+  },
+  {
+    "flag": "🇱🇸",
+    "code": "LS",
+    "dialCode": "+266",
+    "nameKey": "lesotho",
+    "translations": {
+      "en": "Lesotho",
+      "es": "Lesoto",
+      "fr": "Lesotho",
+      "it": "Lesoto",
+      "ja": "レソト",
+      "pt": "Lesoto",
+      "th": "เลโซโท",
+      "zh": "莱索托"
+    }
+  },
+  {
+    "flag": "🇱🇷",
+    "code": "LR",
+    "dialCode": "+231",
+    "nameKey": "liberia",
+    "translations": {
+      "en": "Liberia",
+      "es": "Liberia",
+      "fr": "Libéria",
+      "it": "Liberia",
+      "ja": "リベリア",
+      "pt": "Libéria",
+      "th": "ไลบีเรีย",
+      "zh": "利比里亚"
+    }
+  },
+  {
+    "flag": "🇱🇾",
+    "code": "LY",
+    "dialCode": "+218",
+    "nameKey": "libya",
+    "translations": {
+      "en": "Libya",
+      "es": "Libia",
+      "fr": "Libye",
+      "it": "Libia",
+      "ja": "リビア",
+      "pt": "Líbia",
+      "th": "ลิเบีย",
+      "zh": "利比亚"
+    }
+  },
+  {
+    "flag": "🇱🇮",
+    "code": "LI",
+    "dialCode": "+423",
+    "nameKey": "liechtenstein",
+    "translations": {
+      "en": "Liechtenstein",
+      "es": "Liechtenstein",
+      "fr": "Liechtenstein",
+      "it": "Liechtenstein",
+      "ja": "リヒテンシュタイン",
+      "pt": "Liechtenstein",
+      "th": "ลิกเตนสไตน์",
+      "zh": "列支敦士登"
+    }
+  },
+  {
+    "flag": "🇱🇹",
+    "code": "LT",
+    "dialCode": "+370",
+    "nameKey": "lithuania",
+    "translations": {
+      "en": "Lithuania",
+      "es": "Lituania",
+      "fr": "Lituanie",
+      "it": "Lituania",
+      "ja": "リトアニア",
+      "pt": "Lituânia",
+      "th": "ลิทัวเนีย",
+      "zh": "立陶宛"
+    }
+  },
+  {
+    "flag": "🇱🇺",
+    "code": "LU",
+    "dialCode": "+352",
+    "nameKey": "luxembourg",
+    "translations": {
+      "en": "Luxembourg",
+      "es": "Luxemburgo",
+      "fr": "Luxembourg",
+      "it": "Lussemburgo",
+      "ja": "ルクセンブルク",
+      "pt": "Luxemburgo",
+      "th": "ลักเซมเบิร์ก",
+      "zh": "卢森堡"
+    }
+  },
+  {
+    "flag": "🇲🇴",
+    "code": "MO",
+    "dialCode": "+853",
+    "nameKey": "macao",
+    "translations": {
+      "en": "Macao",
+      "es": "macao",
+      "fr": "Macao",
+      "it": "Macao",
+      "ja": "マカオ",
+      "pt": "Macau",
+      "th": "มาเก๊า",
+      "zh": "澳门"
+    }
+  },
+  {
+    "flag": "🇲🇬",
+    "code": "MG",
+    "dialCode": "+261",
+    "nameKey": "madagascar",
+    "translations": {
+      "en": "Madagascar",
+      "es": "Madagascar",
+      "fr": "Madagascar",
+      "it": "Madagascar",
+      "ja": "マダガスカル",
+      "pt": "Madagáscar",
+      "th": "มาดากัสการ์",
+      "zh": "马达加斯加"
+    }
+  },
+  {
+    "flag": "🇲🇼",
+    "code": "MW",
+    "dialCode": "+265",
+    "nameKey": "malawi",
+    "translations": {
+      "en": "Malawi",
+      "es": "Malaui",
+      "fr": "Malawi",
+      "it": "Malawi",
+      "ja": "マラウイ",
+      "pt": "Maláui",
+      "th": "มาลาวี",
+      "zh": "马拉维"
+    }
+  },
+  {
+    "flag": "🇲🇾",
+    "code": "MY",
+    "dialCode": "+60",
+    "nameKey": "malaysia",
+    "translations": {
+      "en": "Malaysia",
+      "es": "Malasia",
+      "fr": "Malaisie",
+      "it": "Malaysia",
+      "ja": "マレーシア",
+      "pt": "Malásia",
+      "th": "มาเลเซีย",
+      "zh": "马来西亚"
+    }
+  },
+  {
+    "flag": "🇲🇻",
+    "code": "MV",
+    "dialCode": "+960",
+    "nameKey": "maldives",
+    "translations": {
+      "en": "Maldives",
+      "es": "Maldivas",
+      "fr": "Maldives",
+      "it": "Maldive",
+      "ja": "モルディブ",
+      "pt": "Maldivas",
+      "th": "มัลดีฟส์",
+      "zh": "马尔代夫"
+    }
+  },
+  {
+    "flag": "🇲🇱",
+    "code": "ML",
+    "dialCode": "+223",
+    "nameKey": "mali",
+    "translations": {
+      "en": "Mali",
+      "es": "Malí",
+      "fr": "Mali",
+      "it": "Mali",
+      "ja": "マリ",
+      "pt": "Mali",
+      "th": "มาลี",
+      "zh": "马里"
+    }
+  },
+  {
+    "flag": "🇲🇹",
+    "code": "MT",
+    "dialCode": "+356",
+    "nameKey": "malta",
+    "translations": {
+      "en": "Malta",
+      "es": "Malta",
+      "fr": "Malte",
+      "it": "Malta",
+      "ja": "マルタ",
+      "pt": "Malta",
+      "th": "มอลตา",
+      "zh": "马耳他"
+    }
+  },
+  {
+    "flag": "🇲🇭",
+    "code": "MH",
+    "dialCode": "+692",
+    "nameKey": "marshallIslands",
+    "translations": {
+      "en": "Marshall Islands",
+      "es": "Islas Marshall",
+      "fr": "Îles Marshall",
+      "it": "Isole Marshall",
+      "ja": "マーシャル諸島",
+      "pt": "Ilhas Marshall",
+      "th": "หมู่เกาะมาร์แชลล์",
+      "zh": "马绍尔群岛"
+    }
+  },
+  {
+    "flag": "🇲🇷",
+    "code": "MR",
+    "dialCode": "+222",
+    "nameKey": "mauritania",
+    "translations": {
+      "en": "Mauritania",
+      "es": "Mauritania",
+      "fr": "Mauritanie",
+      "it": "La Mauritania",
+      "ja": "モーリタニア",
+      "pt": "Mauritânia",
+      "th": "มอริเตเนีย",
+      "zh": "毛里塔尼亚"
+    }
+  },
+  {
+    "flag": "🇲🇺",
+    "code": "MU",
+    "dialCode": "+230",
+    "nameKey": "mauritius",
+    "translations": {
+      "en": "Mauritius",
+      "es": "Mauricio",
+      "fr": "Maurice",
+      "it": "Maurizio",
+      "ja": "モーリシャス",
+      "pt": "Maurício",
+      "th": "มอริเชียส",
+      "zh": "毛里求斯"
+    }
+  },
+  {
+    "flag": "🇲🇽",
+    "code": "MX",
+    "dialCode": "+52",
+    "nameKey": "mexico",
+    "translations": {
+      "en": "Mexico",
+      "es": "México",
+      "fr": "Mexique",
+      "it": "Messico",
+      "ja": "メキシコ",
+      "pt": "México",
+      "th": "เม็กซิโก",
+      "zh": "墨西哥"
+    }
+  },
+  {
+    "flag": "🇫🇲",
+    "code": "FM",
+    "dialCode": "+691",
+    "nameKey": "micronesia",
+    "translations": {
+      "en": "Micronesia",
+      "es": "Micronesia",
+      "fr": "Micronésie",
+      "it": "Micronesia",
+      "ja": "ミクロネシア",
+      "pt": "Micronésia",
+      "th": "ไมโครนีเซีย",
+      "zh": "密克罗尼西亚"
+    }
+  },
+  {
+    "flag": "🇲🇩",
+    "code": "MD",
+    "dialCode": "+373",
+    "nameKey": "moldova",
+    "translations": {
+      "en": "Moldova",
+      "es": "Moldavia",
+      "fr": "Moldavie",
+      "it": "Moldavia",
+      "ja": "モルドバ",
+      "pt": "Moldávia",
+      "th": "มอลโดวา",
+      "zh": "摩尔多瓦"
+    }
+  },
+  {
+    "flag": "🇲🇨",
+    "code": "MC",
+    "dialCode": "+377",
+    "nameKey": "monaco",
+    "translations": {
+      "en": "Monaco",
+      "es": "Mónaco",
+      "fr": "Monaco",
+      "it": "Monaco",
+      "ja": "モナコ",
+      "pt": "Mônaco",
+      "th": "โมนาโก",
+      "zh": "摩纳哥"
+    }
+  },
+  {
+    "flag": "🇲🇳",
+    "code": "MN",
+    "dialCode": "+976",
+    "nameKey": "mongolia",
+    "translations": {
+      "en": "Mongolia",
+      "es": "Mongolia",
+      "fr": "Mongolie",
+      "it": "Mongolia",
+      "ja": "モンゴル",
+      "pt": "Mongólia",
+      "th": "มองโกเลีย",
+      "zh": "蒙古"
+    }
+  },
+  {
+    "flag": "🇲🇪",
+    "code": "ME",
+    "dialCode": "+382",
+    "nameKey": "montenegro",
+    "translations": {
+      "en": "Montenegro",
+      "es": "Montenegro",
+      "fr": "Monténégro",
+      "it": "Montenegro",
+      "ja": "モンテネグロ",
+      "pt": "Montenegro",
+      "th": "มอนเตเนโกร",
+      "zh": "黑山"
+    }
+  },
+  {
+    "flag": "🇲🇦",
+    "code": "MA",
+    "dialCode": "+212",
+    "nameKey": "morocco",
+    "translations": {
+      "en": "Morocco",
+      "es": "Marruecos",
+      "fr": "Maroc",
+      "it": "Marocco",
+      "ja": "モロッコ",
+      "pt": "Marrocos",
+      "th": "โมร็อกโก",
+      "zh": "摩洛哥"
+    }
+  },
+  {
+    "flag": "🇲🇿",
+    "code": "MZ",
+    "dialCode": "+258",
+    "nameKey": "mozambique",
+    "translations": {
+      "en": "Mozambique",
+      "es": "Mozambique",
+      "fr": "Mozambique",
+      "it": "Mozambico",
+      "ja": "モザンビーク",
+      "pt": "Moçambique",
+      "th": "โมซัมบิก",
+      "zh": "莫桑比克"
+    }
+  },
+  {
+    "flag": "🇲🇲",
+    "code": "MM",
+    "dialCode": "+95",
+    "nameKey": "myanmar",
+    "translations": {
+      "en": "Myanmar",
+      "es": "Birmania",
+      "fr": "Birmanie",
+      "it": "Myanmar",
+      "ja": "ミャンマー",
+      "pt": "Mianmar",
+      "th": "พม่า",
+      "zh": "缅甸"
+    }
+  },
+  {
+    "flag": "🇳🇦",
+    "code": "NA",
+    "dialCode": "+264",
+    "nameKey": "namibia",
+    "translations": {
+      "en": "Namibia",
+      "es": "Namibia",
+      "fr": "Namibie",
+      "it": "Namibia",
+      "ja": "ナミビア",
+      "pt": "Namíbia",
+      "th": "นามิเบีย",
+      "zh": "纳米比亚"
+    }
+  },
+  {
+    "flag": "🇳🇷",
+    "code": "NR",
+    "dialCode": "+674",
+    "nameKey": "nauru",
+    "translations": {
+      "en": "Nauru",
+      "es": "Nauru",
+      "fr": "Nauru",
+      "it": "Nauru",
+      "ja": "ナウル",
+      "pt": "Nauru",
+      "th": "นาอูรู",
+      "zh": "瑙鲁"
+    }
+  },
+  {
+    "flag": "🇳🇵",
+    "code": "NP",
+    "dialCode": "+977",
+    "nameKey": "nepal",
+    "translations": {
+      "en": "Nepal",
+      "es": "Nepal",
+      "fr": "Népal",
+      "it": "Nepal",
+      "ja": "ネパール",
+      "pt": "Nepal",
+      "th": "เนปาล",
+      "zh": "尼泊尔"
+    }
+  },
+  {
+    "flag": "🇳🇱",
+    "code": "NL",
+    "dialCode": "+31",
+    "nameKey": "netherlands",
+    "translations": {
+      "en": "Netherlands",
+      "es": "Países Bajos",
+      "fr": "Pays-Bas",
+      "it": "Paesi Bassi",
+      "ja": "オランダ",
+      "pt": "Holanda",
+      "th": "เนเธอร์แลนด์",
+      "zh": "荷兰"
+    }
+  },
+  {
+    "flag": "🇳🇿",
+    "code": "NZ",
+    "dialCode": "+64",
+    "nameKey": "newZealand",
+    "translations": {
+      "en": "New Zealand",
+      "es": "Nueva Zelanda",
+      "fr": "Nouvelle-Zélande",
+      "it": "Nuova Zelanda",
+      "ja": "ニュージーランド",
+      "pt": "Nova Zelândia",
+      "th": "นิวซีแลนด์",
+      "zh": "新西兰"
+    }
+  },
+  {
+    "flag": "🇳🇮",
+    "code": "NI",
+    "dialCode": "+505",
+    "nameKey": "nicaragua",
+    "translations": {
+      "en": "Nicaragua",
+      "es": "Nicaragua",
+      "fr": "Nicaragua",
+      "it": "Nicaragua",
+      "ja": "ニカラグア",
+      "pt": "Nicarágua",
+      "th": "นิการากัว",
+      "zh": "尼加拉瓜"
+    }
+  },
+  {
+    "flag": "🇳🇪",
+    "code": "NE",
+    "dialCode": "+227",
+    "nameKey": "niger",
+    "translations": {
+      "en": "Niger",
+      "es": "Níger",
+      "fr": "Niger",
+      "it": "Niger",
+      "ja": "ニジェール",
+      "pt": "Níger",
+      "th": "ไนเจอร์",
+      "zh": "尼日尔"
+    }
+  },
+  {
+    "flag": "🇳🇬",
+    "code": "NG",
+    "dialCode": "+234",
+    "nameKey": "nigeria",
+    "translations": {
+      "en": "Nigeria",
+      "es": "Nigeria",
+      "fr": "Nigeria",
+      "it": "Nigeria",
+      "ja": "ナイジェリア",
+      "pt": "Nigéria",
+      "th": "ไนจีเรีย",
+      "zh": "尼日利亚"
+    }
+  },
+  {
+    "flag": "🇰🇵",
+    "code": "KP",
+    "dialCode": "+850",
+    "nameKey": "northKorea",
+    "translations": {
+      "en": "North Korea",
+      "es": "Corea del Norte",
+      "fr": "Corée du Nord",
+      "it": "Corea del nord",
+      "ja": "北朝鮮",
+      "pt": "Coréia do Norte",
+      "th": "เกาหลีเหนือ",
+      "zh": "北朝鲜"
+    }
+  },
+  {
+    "flag": "🇲🇰",
+    "code": "MK",
+    "dialCode": "+389",
+    "nameKey": "northMacedonia",
+    "translations": {
+      "en": "North Macedonia",
+      "es": "Macedonia del Norte",
+      "fr": "Macédoine du Nord",
+      "it": "Macedonia del Nord",
+      "ja": "北マケドニア",
+      "pt": "Macedônia do Norte",
+      "th": "มาซิโดเนียเหนือ",
+      "zh": "北马其顿"
+    }
+  },
+  {
+    "flag": "🇳🇴",
+    "code": "NO",
+    "dialCode": "+47",
+    "nameKey": "norway",
+    "translations": {
+      "en": "Norway",
+      "es": "Noruega",
+      "fr": "Norvège",
+      "it": "Norvegia",
+      "ja": "ノルウェー",
+      "pt": "Noruega",
+      "th": "นอร์เวย์",
+      "zh": "挪威"
+    }
+  },
+  {
+    "flag": "🇴🇲",
+    "code": "OM",
+    "dialCode": "+968",
+    "nameKey": "oman",
+    "translations": {
+      "en": "Oman",
+      "es": "Omán",
+      "fr": "Oman",
+      "it": "Oman",
+      "ja": "オマーン",
+      "pt": "Omã",
+      "th": "โอมาน",
+      "zh": "阿曼"
+    }
+  },
+  {
+    "flag": "🇵🇰",
+    "code": "PK",
+    "dialCode": "+92",
+    "nameKey": "pakistan",
+    "translations": {
+      "en": "Pakistan",
+      "es": "Pakistán",
+      "fr": "Pakistan",
+      "it": "Pakistan",
+      "ja": "パキスタン",
+      "pt": "Paquistão",
+      "th": "ปากีสถาน",
+      "zh": "巴基斯坦"
+    }
+  },
+  {
+    "flag": "🇵🇼",
+    "code": "PW",
+    "dialCode": "+680",
+    "nameKey": "palau",
+    "translations": {
+      "en": "Palau",
+      "es": "Palaos",
+      "fr": "Palaos",
+      "it": "Palau",
+      "ja": "パラオ",
+      "pt": "Palau",
+      "th": "ปาเลา",
+      "zh": "帕劳"
+    }
+  },
+  {
+    "flag": "🇵🇸",
+    "code": "PS",
+    "dialCode": "+970",
+    "nameKey": "palestine",
+    "translations": {
+      "en": "Palestine",
+      "es": "Palestina",
+      "fr": "Palestine",
+      "it": "Palestina",
+      "ja": "パレスチナ",
+      "pt": "Palestina",
+      "th": "ปาเลสไตน์",
+      "zh": "巴勒斯坦"
+    }
+  },
+  {
+    "flag": "🇵🇦",
+    "code": "PA",
+    "dialCode": "+507",
+    "nameKey": "panama",
+    "translations": {
+      "en": "Panama",
+      "es": "Panamá",
+      "fr": "Panama",
+      "it": "Panama",
+      "ja": "パナマ",
+      "pt": "Panamá",
+      "th": "ปานามา",
+      "zh": "巴拿马"
+    }
+  },
+  {
+    "flag": "🇵🇬",
+    "code": "PG",
+    "dialCode": "+675",
+    "nameKey": "papuaNewGuinea",
+    "translations": {
+      "en": "Papua New Guinea",
+      "es": "Papúa Nueva Guinea",
+      "fr": "Papouasie-Nouvelle-Guinée",
+      "it": "Papua Nuova Guinea",
+      "ja": "パプアニューギニア",
+      "pt": "Papua Nova Guiné",
+      "th": "ปาปัวนิวกินี",
+      "zh": "巴布亚新几内亚"
+    }
+  },
+  {
+    "flag": "🇵🇾",
+    "code": "PY",
+    "dialCode": "+595",
+    "nameKey": "paraguay",
+    "translations": {
+      "en": "Paraguay",
+      "es": "Paraguay",
+      "fr": "Paraguay",
+      "it": "Paraguay",
+      "ja": "パラグアイ",
+      "pt": "Paraguai",
+      "th": "ปารากวัย",
+      "zh": "巴拉圭"
+    }
+  },
+  {
+    "flag": "🇵🇪",
+    "code": "PE",
+    "dialCode": "+51",
+    "nameKey": "peru",
+    "translations": {
+      "en": "Peru",
+      "es": "Perú",
+      "fr": "Pérou",
+      "it": "Perù",
+      "ja": "ペルー",
+      "pt": "Peru",
+      "th": "เปรู",
+      "zh": "秘鲁"
+    }
+  },
+  {
+    "flag": "🇵🇭",
+    "code": "PH",
+    "dialCode": "+63",
+    "nameKey": "philippines",
+    "translations": {
+      "en": "Philippines",
+      "es": "Filipinas",
+      "fr": "Philippines",
+      "it": "Filippine",
+      "ja": "フィリピン",
+      "pt": "Filipinas",
+      "th": "ฟิลิปปินส์",
+      "zh": "菲律宾"
+    }
+  },
+  {
+    "flag": "🇵🇱",
+    "code": "PL",
+    "dialCode": "+48",
+    "nameKey": "poland",
+    "translations": {
+      "en": "Poland",
+      "es": "Polonia",
+      "fr": "Pologne",
+      "it": "Polonia",
+      "ja": "ポーランド",
+      "pt": "Polônia",
+      "th": "โปแลนด์",
+      "zh": "波兰"
+    }
+  },
+  {
+    "flag": "🇵🇹",
+    "code": "PT",
+    "dialCode": "+351",
+    "nameKey": "portugal",
+    "translations": {
+      "en": "Portugal",
+      "es": "Portugal",
+      "fr": "Portugal",
+      "it": "Portogallo",
+      "ja": "ポルトガル",
+      "pt": "Portugal",
+      "th": "โปรตุเกส",
+      "zh": "葡萄牙"
+    }
+  },
+  {
+    "flag": "🇵🇷",
+    "code": "PR",
+    "dialCode": "+1",
+    "nameKey": "puertoRico",
+    "translations": {
+      "en": "Puerto Rico",
+      "es": "Puerto Rico",
+      "fr": "Porto Rico",
+      "it": "Porto Rico",
+      "ja": "プエルトリコ",
+      "pt": "Porto Rico",
+      "th": "เปอร์โตริโก",
+      "zh": "波多黎各"
+    }
+  },
+  {
+    "flag": "🇶🇦",
+    "code": "QA",
+    "dialCode": "+974",
+    "nameKey": "qatar",
+    "translations": {
+      "en": "Qatar",
+      "es": "Katar",
+      "fr": "Qatar",
+      "it": "Qatar",
+      "ja": "カタール",
+      "pt": "Catar",
+      "th": "กาตาร์",
+      "zh": "卡塔尔"
+    }
+  },
+  {
+    "flag": "🇷🇴",
+    "code": "RO",
+    "dialCode": "+40",
+    "nameKey": "romania",
+    "translations": {
+      "en": "Romania",
+      "es": "Rumania",
+      "fr": "Roumanie",
+      "it": "Romania",
+      "ja": "ルーマニア",
+      "pt": "Romênia",
+      "th": "โรมาเนีย",
+      "zh": "罗马尼亚"
+    }
+  },
+  {
+    "flag": "🇷🇺",
+    "code": "RU",
+    "dialCode": "+7",
+    "nameKey": "russia",
+    "translations": {
+      "en": "Russia",
+      "es": "Rusia",
+      "fr": "Russie",
+      "it": "Russia",
+      "ja": "ロシア",
+      "pt": "Rússia",
+      "th": "รัสเซีย",
+      "zh": "俄罗斯"
+    }
+  },
+  {
+    "flag": "🇷🇼",
+    "code": "RW",
+    "dialCode": "+250",
+    "nameKey": "rwanda",
+    "translations": {
+      "en": "Rwanda",
+      "es": "Ruanda",
+      "fr": "Rwanda",
+      "it": "Ruanda",
+      "ja": "ルワンダ",
+      "pt": "Ruanda",
+      "th": "รวันดา",
+      "zh": "卢旺达"
+    }
+  },
+  {
+    "flag": "🇰🇳",
+    "code": "KN",
+    "dialCode": "+1869",
+    "nameKey": "saintKittsAndNevis",
+    "translations": {
+      "en": "Saint Kitts and Nevis",
+      "es": "San Cristóbal y Nieves",
+      "fr": "Saint-Kitts-et-Nevis",
+      "it": "Saint Kitts e Nevis",
+      "ja": "セントクリストファー・ネイビス",
+      "pt": "São Cristóvão e Nevis",
+      "th": "เซนต์คิตส์และเนวิส",
+      "zh": "圣基茨和尼维斯"
+    }
+  },
+  {
+    "flag": "🇱🇨",
+    "code": "LC",
+    "dialCode": "+1758",
+    "nameKey": "saintLucia",
+    "translations": {
+      "en": "Saint Lucia",
+      "es": "Santa Lucía",
+      "fr": "Sainte-Lucie",
+      "it": "Santa Lucia",
+      "ja": "セントルシア",
+      "pt": "Santa Lúcia",
+      "th": "เซนต์ลูเซีย",
+      "zh": "圣卢西亚"
+    }
+  },
+  {
+    "flag": "🇻🇨",
+    "code": "VC",
+    "dialCode": "+1784",
+    "nameKey": "saintVincentAndTheGrenadines",
+    "translations": {
+      "en": "Saint Vincent and the Grenadines",
+      "es": "San Vicente y las Granadinas",
+      "fr": "Saint-Vincent-et-les Grenadines",
+      "it": "Saint Vincent e Grenadine",
+      "ja": "セントビンセントおよびグレナディーン諸島",
+      "pt": "São Vicente e Granadinas",
+      "th": "เซนต์วินเซนต์และเกรนาดีนส์",
+      "zh": "圣文森特和格林纳丁斯"
+    }
+  },
+  {
+    "flag": "🇼🇸",
+    "code": "WS",
+    "dialCode": "+685",
+    "nameKey": "samoa",
+    "translations": {
+      "en": "Samoa",
+      "es": "Samoa",
+      "fr": "Samoa",
+      "it": "Samoa",
+      "ja": "サモア",
+      "pt": "Samoa",
+      "th": "ซามัว",
+      "zh": "萨摩亚"
+    }
+  },
+  {
+    "flag": "🇸🇲",
+    "code": "SM",
+    "dialCode": "+378",
+    "nameKey": "sanMarino",
+    "translations": {
+      "en": "San Marino",
+      "es": "San Marino",
+      "fr": "Saint-Marin",
+      "it": "San Marino",
+      "ja": "サンマリノ",
+      "pt": "São Marino",
+      "th": "ซานมารีโน",
+      "zh": "圣马力诺"
+    }
+  },
+  {
+    "flag": "🇸🇹",
+    "code": "ST",
+    "dialCode": "+239",
+    "nameKey": "saoTomeAndPrincipe",
+    "translations": {
+      "en": "Sao Tome and Principe",
+      "es": "Santo Tomé y Príncipe",
+      "fr": "Sao Tomé et Principe",
+      "it": "Sao Tomé e Principe",
+      "ja": "サントメ・プリンシペ",
+      "pt": "São Tomé e Príncipe",
+      "th": "เซาตูเมและปรินซิปี",
+      "zh": "圣多美和普林西比"
+    }
+  },
+  {
+    "flag": "🇸🇦",
+    "code": "SA",
+    "dialCode": "+966",
+    "nameKey": "saudiArabia",
+    "translations": {
+      "en": "Saudi Arabia",
+      "es": "Arabia Saudita",
+      "fr": "Arabie Saoudite",
+      "it": "Arabia Saudita",
+      "ja": "サウジアラビア",
+      "pt": "Arábia Saudita",
+      "th": "ซาอุดีอาระเบีย",
+      "zh": "沙特阿拉伯"
+    }
+  },
+  {
+    "flag": "🇸🇳",
+    "code": "SN",
+    "dialCode": "+221",
+    "nameKey": "senegal",
+    "translations": {
+      "en": "Senegal",
+      "es": "Senegal",
+      "fr": "Sénégal",
+      "it": "Senegal",
+      "ja": "セネガル",
+      "pt": "Senegal",
+      "th": "เซเนกัล",
+      "zh": "塞内加尔"
+    }
+  },
+  {
+    "flag": "🇷🇸",
+    "code": "RS",
+    "dialCode": "+381",
+    "nameKey": "serbia",
+    "translations": {
+      "en": "Serbia",
+      "es": "Serbia",
+      "fr": "Serbie",
+      "it": "Serbia",
+      "ja": "セルビア",
+      "pt": "Sérvia",
+      "th": "เซอร์เบีย",
+      "zh": "塞尔维亚"
+    }
+  },
+  {
+    "flag": "🇸🇨",
+    "code": "SC",
+    "dialCode": "+248",
+    "nameKey": "seychelles",
+    "translations": {
+      "en": "Seychelles",
+      "es": "Seychelles",
+      "fr": "Seychelles",
+      "it": "Seychelles",
+      "ja": "セーシェル",
+      "pt": "Seicheles",
+      "th": "เซเชลส์",
+      "zh": "塞舌尔"
+    }
+  },
+  {
+    "flag": "🇸🇱",
+    "code": "SL",
+    "dialCode": "+232",
+    "nameKey": "sierraLeone",
+    "translations": {
+      "en": "Sierra Leone",
+      "es": "Sierra Leona",
+      "fr": "Sierra Leone",
+      "it": "Sierra Leone",
+      "ja": "シエラレオネ",
+      "pt": "Serra Leoa",
+      "th": "เซียร์ราลีโอน",
+      "zh": "塞拉利昂"
+    }
+  },
+  {
+    "flag": "🇸🇬",
+    "code": "SG",
+    "dialCode": "+65",
+    "nameKey": "singapore",
+    "translations": {
+      "en": "Singapore",
+      "es": "Singapur",
+      "fr": "Singapour",
+      "it": "Singapore",
+      "ja": "シンガポール",
+      "pt": "Cingapura",
+      "th": "สิงคโปร์",
+      "zh": "新加坡"
+    }
+  },
+  {
+    "flag": "🇸🇰",
+    "code": "SK",
+    "dialCode": "+421",
+    "nameKey": "slovakia",
+    "translations": {
+      "en": "Slovakia",
+      "es": "Eslovaquia",
+      "fr": "Slovaquie",
+      "it": "Slovacchia",
+      "ja": "スロバキア",
+      "pt": "Eslováquia",
+      "th": "สโลวาเกีย",
+      "zh": "斯洛伐克"
+    }
+  },
+  {
+    "flag": "🇸🇮",
+    "code": "SI",
+    "dialCode": "+386",
+    "nameKey": "slovenia",
+    "translations": {
+      "en": "Slovenia",
+      "es": "Eslovenia",
+      "fr": "Slovénie",
+      "it": "Slovenia",
+      "ja": "スロベニア",
+      "pt": "Eslovênia",
+      "th": "สโลวีเนีย",
+      "zh": "斯洛文尼亚"
+    }
+  },
+  {
+    "flag": "🇸🇧",
+    "code": "SB",
+    "dialCode": "+677",
+    "nameKey": "solomonIslands",
+    "translations": {
+      "en": "Solomon Islands",
+      "es": "Islas Salomón",
+      "fr": "Îles Salomon",
+      "it": "Isole Salomone",
+      "ja": "ソロモン諸島",
+      "pt": "Ilhas Salomão",
+      "th": "หมู่เกาะโซโลมอน",
+      "zh": "所罗门群岛"
+    }
+  },
+  {
+    "flag": "🇸🇴",
+    "code": "SO",
+    "dialCode": "+252",
+    "nameKey": "somalia",
+    "translations": {
+      "en": "Somalia",
+      "es": "Somalia",
+      "fr": "Somalie",
+      "it": "Somalia",
+      "ja": "ソマリア",
+      "pt": "Somália",
+      "th": "โซมาเลีย",
+      "zh": "索马里"
+    }
+  },
+  {
+    "flag": "🇿🇦",
+    "code": "ZA",
+    "dialCode": "+27",
+    "nameKey": "southAfrica",
+    "translations": {
+      "en": "South Africa",
+      "es": "Sudáfrica",
+      "fr": "Afrique du Sud",
+      "it": "Sudafrica",
+      "ja": "南アフリカ",
+      "pt": "África do Sul",
+      "th": "แอฟริกาใต้",
+      "zh": "南非"
+    }
+  },
+  {
+    "flag": "🇰🇷",
+    "code": "KR",
+    "dialCode": "+82",
+    "nameKey": "southKorea",
+    "translations": {
+      "en": "South Korea",
+      "es": "Corea del Sur",
+      "fr": "Corée du Sud",
+      "it": "Corea del Sud",
+      "ja": "韓国",
+      "pt": "Coréia do Sul",
+      "th": "เกาหลีใต้",
+      "zh": "韩国"
+    }
+  },
+  {
+    "flag": "🇸🇸",
+    "code": "SS",
+    "dialCode": "+211",
+    "nameKey": "southSudan",
+    "translations": {
+      "en": "South Sudan",
+      "es": "Sudán del Sur",
+      "fr": "Soudan du Sud",
+      "it": "Sudan del Sud",
+      "ja": "南スーダン",
+      "pt": "Sudão do Sul",
+      "th": "ซูดานใต้",
+      "zh": "南苏丹"
+    }
+  },
+  {
+    "flag": "🇪🇸",
+    "code": "ES",
+    "dialCode": "+34",
+    "nameKey": "spain",
+    "translations": {
+      "en": "Spain",
+      "es": "España",
+      "fr": "Espagne",
+      "it": "Spagna",
+      "ja": "スペイン",
+      "pt": "Espanha",
+      "th": "สเปน",
+      "zh": "西班牙"
+    }
+  },
+  {
+    "flag": "🇱🇰",
+    "code": "LK",
+    "dialCode": "+94",
+    "nameKey": "sriLanka",
+    "translations": {
+      "en": "Sri Lanka",
+      "es": "Sri Lanka",
+      "fr": "Sri Lanka",
+      "it": "Sri Lanka",
+      "ja": "スリランカ",
+      "pt": "Sri Lanka",
+      "th": "ศรีลังกา",
+      "zh": "斯里兰卡"
+    }
+  },
+  {
+    "flag": "🇸🇩",
+    "code": "SD",
+    "dialCode": "+249",
+    "nameKey": "sudan",
+    "translations": {
+      "en": "Sudan",
+      "es": "Sudán",
+      "fr": "Soudan",
+      "it": "Sudan",
+      "ja": "スーダン",
+      "pt": "Sudão",
+      "th": "ซูดาน",
+      "zh": "苏丹"
+    }
+  },
+  {
+    "flag": "🇸🇷",
+    "code": "SR",
+    "dialCode": "+597",
+    "nameKey": "suriname",
+    "translations": {
+      "en": "Suriname",
+      "es": "Surinam",
+      "fr": "Surinam",
+      "it": "Suriname",
+      "ja": "スリナム",
+      "pt": "Suriname",
+      "th": "ซูรินาเม",
+      "zh": "苏里南"
+    }
+  },
+  {
+    "flag": "🇸🇪",
+    "code": "SE",
+    "dialCode": "+46",
+    "nameKey": "sweden",
+    "translations": {
+      "en": "Sweden",
+      "es": "Suecia",
+      "fr": "Suède",
+      "it": "Svezia",
+      "ja": "スウェーデン",
+      "pt": "Suécia",
+      "th": "สวีเดน",
+      "zh": "瑞典"
+    }
+  },
+  {
+    "flag": "🇨🇭",
+    "code": "CH",
+    "dialCode": "+41",
+    "nameKey": "switzerland",
+    "translations": {
+      "en": "Switzerland",
+      "es": "Suiza",
+      "fr": "Suisse",
+      "it": "Svizzera",
+      "ja": "スイス",
+      "pt": "Suíça",
+      "th": "สวิตเซอร์แลนด์",
+      "zh": "瑞士"
+    }
+  },
+  {
+    "flag": "🇸🇾",
+    "code": "SY",
+    "dialCode": "+963",
+    "nameKey": "syria",
+    "translations": {
+      "en": "Syria",
+      "es": "Siria",
+      "fr": "Syrie",
+      "it": "Siria",
+      "ja": "シリア",
+      "pt": "Síria",
+      "th": "ซีเรีย",
+      "zh": "叙利亚"
+    }
+  },
+  {
+    "flag": "🇹🇼",
+    "code": "TW",
+    "dialCode": "+886",
+    "nameKey": "taiwan",
+    "translations": {
+      "en": "Taiwan",
+      "es": "Taiwán",
+      "fr": "Taïwan",
+      "it": "Taiwan",
+      "ja": "台湾",
+      "pt": "Taiwan",
+      "th": "ไต้หวัน",
+      "zh": "台湾"
+    }
+  },
+  {
+    "flag": "🇹🇯",
+    "code": "TJ",
+    "dialCode": "+992",
+    "nameKey": "tajikistan",
+    "translations": {
+      "en": "Tajikistan",
+      "es": "Tayikistán",
+      "fr": "Tadjikistan",
+      "it": "Tagikistan",
+      "ja": "タジキスタン",
+      "pt": "Tadjiquistão",
+      "th": "ทาจิกิสถาน",
+      "zh": "塔吉克斯坦"
+    }
+  },
+  {
+    "flag": "🇹🇿",
+    "code": "TZ",
+    "dialCode": "+255",
+    "nameKey": "tanzania",
+    "translations": {
+      "en": "Tanzania",
+      "es": "Tanzania",
+      "fr": "Tanzanie",
+      "it": "Tanzania",
+      "ja": "タンザニア",
+      "pt": "Tanzânia",
+      "th": "แทนซาเนีย",
+      "zh": "坦桑尼亚"
+    }
+  },
+  {
+    "flag": "🇹🇭",
+    "code": "TH",
+    "dialCode": "+66",
+    "nameKey": "thailand",
+    "translations": {
+      "en": "Thailand",
+      "es": "Tailandia",
+      "fr": "Thaïlande",
+      "it": "Tailandia",
+      "ja": "タイ",
+      "pt": "Tailândia",
+      "th": "ประเทศไทย",
+      "zh": "泰国"
+    }
+  },
+  {
+    "flag": "🇹🇱",
+    "code": "TL",
+    "dialCode": "+670",
+    "nameKey": "timorLeste",
+    "translations": {
+      "en": "Timor-Leste",
+      "es": "Timor Oriental",
+      "fr": "Timor-Leste",
+      "it": "Timor Est",
+      "ja": "東ティモール",
+      "pt": "Timor-Leste",
+      "th": "ติมอร์-เลสเต",
+      "zh": "东帝汶"
+    }
+  },
+  {
+    "flag": "🇹🇬",
+    "code": "TG",
+    "dialCode": "+228",
+    "nameKey": "togo",
+    "translations": {
+      "en": "Togo",
+      "es": "Ir",
+      "fr": "Aller",
+      "it": "Togo",
+      "ja": "持ち帰り",
+      "pt": "Ir",
+      "th": "โตโก",
+      "zh": "多哥"
+    }
+  },
+  {
+    "flag": "🇹🇴",
+    "code": "TO",
+    "dialCode": "+676",
+    "nameKey": "tonga",
+    "translations": {
+      "en": "Tonga",
+      "es": "Tonga",
+      "fr": "Tonga",
+      "it": "Tonga",
+      "ja": "トンガ",
+      "pt": "Tonga",
+      "th": "ตองกา",
+      "zh": "汤加"
+    }
+  },
+  {
+    "flag": "🇹🇹",
+    "code": "TT",
+    "dialCode": "+1868",
+    "nameKey": "trinidadAndTobago",
+    "translations": {
+      "en": "Trinidad and Tobago",
+      "es": "Trinidad y Tobago",
+      "fr": "Trinité-et-Tobago",
+      "it": "Trinidad e Tobago",
+      "ja": "トリニダード・トバゴ",
+      "pt": "Trinidad e Tobago",
+      "th": "ตรินิแดดและโตเบโก",
+      "zh": "特立尼达和多巴哥"
+    }
+  },
+  {
+    "flag": "🇹🇳",
+    "code": "TN",
+    "dialCode": "+216",
+    "nameKey": "tunisia",
+    "translations": {
+      "en": "Tunisia",
+      "es": "Túnez",
+      "fr": "Tunisie",
+      "it": "Tunisia",
+      "ja": "チュニジア",
+      "pt": "Tunísia",
+      "th": "ตูนิเซีย",
+      "zh": "突尼斯"
+    }
+  },
+  {
+    "flag": "🇹🇷",
+    "code": "TR",
+    "dialCode": "+90",
+    "nameKey": "turkey",
+    "translations": {
+      "en": "Turkey",
+      "es": "Pavo",
+      "fr": "Turquie",
+      "it": "Tacchino",
+      "ja": "七面鳥",
+      "pt": "Peru",
+      "th": "ไก่งวง",
+      "zh": "火鸡"
+    }
+  },
+  {
+    "flag": "🇹🇲",
+    "code": "TM",
+    "dialCode": "+993",
+    "nameKey": "turkmenistan",
+    "translations": {
+      "en": "Turkmenistan",
+      "es": "Turkmenistán",
+      "fr": "Turkménistan",
+      "it": "Turkmenistan",
+      "ja": "トルクメニスタン",
+      "pt": "Turcomenistão",
+      "th": "เติร์กเมนิสถาน",
+      "zh": "土库曼斯坦"
+    }
+  },
+  {
+    "flag": "🇹🇻",
+    "code": "TV",
+    "dialCode": "+688",
+    "nameKey": "tuvalu",
+    "translations": {
+      "en": "Tuvalu",
+      "es": "Tuvalu",
+      "fr": "Tuvalu",
+      "it": "Tuvalu",
+      "ja": "ツバル",
+      "pt": "Tuvalu",
+      "th": "ตูวาลู",
+      "zh": "图瓦卢"
+    }
+  },
+  {
+    "flag": "🇺🇬",
+    "code": "UG",
+    "dialCode": "+256",
+    "nameKey": "uganda",
+    "translations": {
+      "en": "Uganda",
+      "es": "Uganda",
+      "fr": "Ouganda",
+      "it": "Uganda",
+      "ja": "ウガンダ",
+      "pt": "Uganda",
+      "th": "ยูกันดา",
+      "zh": "乌干达"
+    }
+  },
+  {
+    "flag": "🇺🇦",
+    "code": "UA",
+    "dialCode": "+380",
+    "nameKey": "ukraine",
+    "translations": {
+      "en": "Ukraine",
+      "es": "Ucrania",
+      "fr": "Ukraine",
+      "it": "Ucraina",
+      "ja": "ウクライナ",
+      "pt": "Ucrânia",
+      "th": "ยูเครน",
+      "zh": "乌克兰"
+    }
+  },
+  {
+    "flag": "🇦🇪",
+    "code": "AE",
+    "dialCode": "+971",
+    "nameKey": "unitedArabEmirates",
+    "translations": {
+      "en": "United Arab Emirates",
+      "es": "Emiratos Árabes Unidos",
+      "fr": "Émirats arabes unis",
+      "it": "Emirati Arabi Uniti",
+      "ja": "アラブ首長国連邦",
+      "pt": "Emirados Árabes Unidos",
+      "th": "สหรัฐอาหรับเอมิเรตส์",
+      "zh": "阿拉伯联合酋长国"
+    }
+  },
+  {
+    "flag": "🇬🇧",
+    "code": "GB",
+    "dialCode": "+44",
+    "nameKey": "unitedKingdom",
+    "translations": {
+      "en": "United Kingdom",
+      "es": "Reino Unido",
+      "fr": "Royaume-Uni",
+      "it": "Regno Unito",
+      "ja": "イギリス",
+      "pt": "Reino Unido",
+      "th": "สหราชอาณาจักร",
+      "zh": "英国"
+    }
+  },
+  {
+    "flag": "🇺🇸",
+    "code": "US",
+    "dialCode": "+1",
+    "nameKey": "unitedStates",
+    "translations": {
+      "en": "United States",
+      "es": "Estados Unidos",
+      "fr": "États-Unis",
+      "it": "Stati Uniti",
+      "ja": "米国",
+      "pt": "Estados Unidos",
+      "th": "สหรัฐอเมริกา",
+      "zh": "美国"
+    }
+  },
+  {
+    "flag": "🇺🇾",
+    "code": "UY",
+    "dialCode": "+598",
+    "nameKey": "uruguay",
+    "translations": {
+      "en": "Uruguay",
+      "es": "Uruguay",
+      "fr": "Uruguay",
+      "it": "Uruguay",
+      "ja": "ウルグアイ",
+      "pt": "Uruguai",
+      "th": "อุรุกวัย",
+      "zh": "乌拉圭"
+    }
+  },
+  {
+    "flag": "🇻🇮",
+    "code": "VI",
+    "dialCode": "+1340",
+    "nameKey": "usVirginIslands",
+    "translations": {
+      "en": "U.S. Virgin Islands",
+      "es": "Islas Vírgenes de EE.UU.",
+      "fr": "Îles Vierges américaines",
+      "it": "Isole Vergini americane",
+      "ja": "アメリカ領ヴァージン諸島",
+      "pt": "Ilhas Virgens dos EUA",
+      "th": "หมู่เกาะเวอร์จินของสหรัฐอเมริกา",
+      "zh": "美属维尔京群岛"
+    }
+  },
+  {
+    "flag": "🇺🇿",
+    "code": "UZ",
+    "dialCode": "+998",
+    "nameKey": "uzbekistan",
+    "translations": {
+      "en": "Uzbekistan",
+      "es": "Uzbekistán",
+      "fr": "Ouzbékistan",
+      "it": "Uzbekistan",
+      "ja": "ウズベキスタン",
+      "pt": "Uzbequistão",
+      "th": "อุซเบกิสถาน",
+      "zh": "乌兹别克斯坦"
+    }
+  },
+  {
+    "flag": "🇻🇺",
+    "code": "VU",
+    "dialCode": "+678",
+    "nameKey": "vanuatu",
+    "translations": {
+      "en": "Vanuatu",
+      "es": "Vanuatu",
+      "fr": "Vanuatu",
+      "it": "Vanuatu",
+      "ja": "バヌアツ",
+      "pt": "Vanuatu",
+      "th": "วานูอาตู",
+      "zh": "瓦努阿图"
+    }
+  },
+  {
+    "flag": "🇻🇦",
+    "code": "VA",
+    "dialCode": "+379",
+    "nameKey": "vaticanCity",
+    "translations": {
+      "en": "Vatican City",
+      "es": "Ciudad del Vaticano",
+      "fr": "Cité du Vatican",
+      "it": "Città del Vaticano",
+      "ja": "バチカン市国",
+      "pt": "Cidade do Vaticano",
+      "th": "นครวาติกัน",
+      "zh": "梵蒂冈城"
+    }
+  },
+  {
+    "flag": "🇻🇪",
+    "code": "VE",
+    "dialCode": "+58",
+    "nameKey": "venezuela",
+    "translations": {
+      "en": "Venezuela",
+      "es": "Venezuela",
+      "fr": "Venezuela",
+      "it": "Venezuela",
+      "ja": "ベネズエラ",
+      "pt": "Venezuela",
+      "th": "เวเนซุเอลา",
+      "zh": "委内瑞拉"
+    }
+  },
+  {
+    "flag": "🇻🇳",
+    "code": "VN",
+    "dialCode": "+84",
+    "nameKey": "vietnam",
+    "translations": {
+      "en": "Vietnam",
+      "es": "Vietnam",
+      "fr": "Viêt Nam",
+      "it": "Vietnam",
+      "ja": "ベトナム",
+      "pt": "Vietnã",
+      "th": "เวียดนาม",
+      "zh": "越南"
+    }
+  },
+  {
+    "flag": "🇻🇬",
+    "code": "VG",
+    "dialCode": "+1284",
+    "nameKey": "virginIslandsBritish",
+    "translations": {
+      "en": "British Virgin Islands",
+      "es": "Islas Vírgenes Británicas",
+      "fr": "Îles Vierges britanniques",
+      "it": "Isole Vergini britanniche",
+      "ja": "イギリス領ヴァージン諸島",
+      "pt": "Ilhas Virgens Britânicas",
+      "th": "หมู่เกาะบริติชเวอร์จิน",
+      "zh": "英属维尔京群岛"
+    }
+  },
+  {
+    "flag": "🇾🇪",
+    "code": "YE",
+    "dialCode": "+967",
+    "nameKey": "yemen",
+    "translations": {
+      "en": "Yemen",
+      "es": "Yemen",
+      "fr": "Yémen",
+      "it": "Yemen",
+      "ja": "イエメン",
+      "pt": "Iémen",
+      "th": "เยเมน",
+      "zh": "也门"
+    }
+  },
+  {
+    "flag": "🇿🇲",
+    "code": "ZM",
+    "dialCode": "+260",
+    "nameKey": "zambia",
+    "translations": {
+      "en": "Zambia",
+      "es": "Zambia",
+      "fr": "Zambie",
+      "it": "Zambia",
+      "ja": "ザンビア",
+      "pt": "Zâmbia",
+      "th": "แซมเบีย",
+      "zh": "赞比亚"
+    }
+  },
+  {
+    "flag": "🇿🇼",
+    "code": "ZW",
+    "dialCode": "+263",
+    "nameKey": "zimbabwe",
+    "translations": {
+      "en": "Zimbabwe",
+      "es": "Zimbabue",
+      "fr": "Zimbabwe",
+      "it": "Zimbabwe",
+      "ja": "ジンバブエ",
+      "pt": "Zimbábue",
+      "th": "ซิมบับเว",
+      "zh": "津巴布韦"
+    }
+  }
+]
